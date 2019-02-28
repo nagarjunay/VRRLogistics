@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/testing/!svn/ver/942/Automation-Selenium/RakuRaku/drivers
+END
+geckodriver.exe
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/testing/!svn/ver/942/Automation-Selenium/RakuRaku/drivers/geckodriver.exe
+END
+chromedriver.exe
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/testing/!svn/ver/942/Automation-Selenium/RakuRaku/drivers/chromedriver.exe
+END
+IEDriverServer.exe
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/testing/!svn/ver/968/Automation-Selenium/RakuRaku/drivers/IEDriverServer.exe
+END

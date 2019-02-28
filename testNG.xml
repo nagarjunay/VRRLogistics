@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Regression suite 1" preserve-order="true"
+	parallel="classes" thread-count="3">
+	<listeners>
+		<listener
+			class-name="com.test.automation.RakuRaku.customListener.Listener"></listener>
+		<listener
+			class-name="com.test.automation.RakuRaku.customListener.RetryListener"></listener>
+
+	</listeners>
+
+
+	<test name="LoginPage">
+		<classes>
+			 <class
+				name="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" />
+			<!-- <class
+				name="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" />-->
+		</classes> 
+		</test>
+
+
+	<!-- <test name="Reservation-Booking">
+		<classes>
+			<class
+				name="com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking" />
+			<class
+				name="com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation" />
+		</classes>
+	</test>
+
+	<test name="RideNow-Booking">
+		<classes>
+			<class
+				name="com.test.automation.RakuRaku.homepage.TC004_VerifyRideNowBookingAllocated" />
+			<class
+				name="com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking" />
+		</classes>
+	</test>
+ -->
+	<test name="API_Server_Down">
+		<classes>
+			<class
+				name="com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown" />
+		</classes>
+	</test>
+
+
+</suite>
