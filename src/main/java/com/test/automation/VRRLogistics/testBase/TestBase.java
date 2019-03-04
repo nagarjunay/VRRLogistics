@@ -104,7 +104,6 @@ public class TestBase {
 	}
 
 
-
 	/* This method is used for wait until element found */
 	public void expliciteWait(WebElement element, int timeToWaitInSec) {
 		WebDriverWait wait = new WebDriverWait(driver, timeToWaitInSec);
@@ -175,8 +174,6 @@ public class TestBase {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		
-
 		try {
 			String reportDirectory = "\\src\\main\\java\\com\\test\\automation\\ZHL_MP\\screenshot\\";		
 			destFile = new File(

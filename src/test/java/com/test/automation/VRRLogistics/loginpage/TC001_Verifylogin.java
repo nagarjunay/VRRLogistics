@@ -43,7 +43,7 @@ public class TC001_Verifylogin extends TestBase {
 		Assert.assertEquals(true, loginpage.getLoginSuccess());
 		getScreenShot("verifyLogin_" + loginid);
 		log("=========>Finished verify login");
-
+		
 	}
 
 }
