@@ -22,40 +22,58 @@ public class Listener extends TestBase implements ITestListener {
 	 */
 
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
+		Reporter.log("Test is started:" + result.getName());
 
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
+
+		if(result.isSuccess()){
+			Calendar calendar = Calendar.getInstance();
+			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+			
+			String methodName = result.getName();
+
+			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			try {
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/VRRLogistics/";
+				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
+				
+				FileUtils.copyFile(scrFile, destFile);
+				
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 
 	}
 
 	public void onTestFailure(ITestResult result) {
-		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
-		String methodName = result.getName();
+		if(!result.isSuccess()){
+			Calendar calendar = Calendar.getInstance();
+			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+			
+			String methodName = result.getName();
 
-		if (!result.isSuccess()) {
-			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
+			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
-						+ "\\src\\main\\java\\com\\test\\automation\\RakuRaku\\";
-				File destFile = new File((String) reportDirectory + "\\failure_screenshots\\" + methodName + "_"
-						+ formater.format(calendar.getTime()) + ".png");
-				FileUtils.copyFile(srcFile, destFile);
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath()
-						+ "' height='100' width='100'/></a>");
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/VRRLogistics/";
+				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
+				
+				FileUtils.copyFile(scrFile, destFile);
+				
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
+				
 			} catch (IOException e) {
 				e.printStackTrace();
-
 			}
 		}
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		Reporter.log("Test is skipped:" + result.getMethod().getMethodName());
 
 	}
 
@@ -70,7 +88,7 @@ public class Listener extends TestBase implements ITestListener {
 	}
 
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		Reporter.log("Test is finished:" + context.getName());
 
 	}
 

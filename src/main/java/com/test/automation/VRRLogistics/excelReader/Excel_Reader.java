@@ -16,7 +16,7 @@ public class Excel_Reader {
 	public static Object[][] read_excel(String Sheet_Name) throws Exception
 	{
 		//File obj = new File("./src/main/java/com/test/automation/Nissan/data/TestData.xlsx");
-		FileInputStream fis = new FileInputStream("./src/main/java/com/test/automation/Nissan/data/TestData.xlsx");
+		FileInputStream fis = new FileInputStream(".\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\data\\TestData.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		XSSFSheet sheet = wb.getSheet(Sheet_Name);
 		

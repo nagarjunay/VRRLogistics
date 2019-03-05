@@ -8,6 +8,8 @@ import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.VRRLogistics.excelReader.Excel_Reader;
 import com.test.automation.VRRLogistics.testBase.TestBase;
 import com.test.automation.VRRLogistics.uiActions.LoginPage;
@@ -37,12 +39,13 @@ public class TC001_Verifylogin extends TestBase {
 			throw new SkipException("User marked this not to run");
 		}
 		log("=========>Started verify login");
-		// test.log(LogStatus.INFO, "");
+		//test.log(LogStatus.INFO, "");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
 		Assert.assertEquals(true, loginpage.getLoginSuccess());
-		getScreenShot("verifyLogin_" + loginid);
+		//getScreenShot("verifyLogin_" + loginid);
 		log("=========>Finished verify login");
+		
 		
 	}
 

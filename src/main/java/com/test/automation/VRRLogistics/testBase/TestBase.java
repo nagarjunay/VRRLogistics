@@ -58,17 +58,17 @@ public class TestBase {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
-		extent = new ExtentReports(System.getProperty("user.dir")
-				+ "/src/main/java/com/test/automation/ZHL_MP/report/ZHL_Test_Report.html", true);
-		// extent = new
-		// ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/RakuRaku/report/RakuRaku_Test_Report_"+formater.format(calendar.getTime())+".html",
-		// false);
+		//extent = new ExtentReports(System.getProperty("user.dir")
+			//	+ "/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics.html", false);
+		 extent = new
+		 ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics_"+formater.format(calendar.getTime())+".html",
+		 true);
 	}
 
 	/* This method loads the data from the config file from main java folder */
 	public void loadData() throws IOException {
 		file = new File(System.getProperty("user.dir")
-				+ "/src/main/java/com/test/automation/ZHL_MP/Config/config.properties");
+				+ "\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\Config\\config.properties");
 		FileInputStream f = new FileInputStream(file);
 		OR.load(f);
 	}
@@ -107,7 +107,7 @@ public class TestBase {
 	/* This method is used for wait until element found */
 	public void expliciteWait(WebElement element, int timeToWaitInSec) {
 		WebDriverWait wait = new WebDriverWait(driver, timeToWaitInSec);
-		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy((By) element));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
 	/* This Method is to capture screenshots to on calling getScreenShot method */
@@ -118,7 +118,7 @@ public class TestBase {
 
 		try {
 			String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
-					+ "\\src\\main\\java\\com\\test\\automation\\ZHL_MP\\screenshot\\";
+					+ "\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\screenshot\\";
 			File destFile = new File(
 					(String) reportDirectory + name + "-" + formater.format(calendar.getTime()) + ".png");
 			FileUtils.copyFile(srcFile, destFile);
@@ -143,8 +143,8 @@ public class TestBase {
 
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			test.log(LogStatus.PASS, result.getName() + " Test Case PASSED ");
-			/*String screen = captureScreen("");
-			test.log(LogStatus.PASS, "  Success Screenshot : " + test.addScreenCapture(screen));*/
+			String screen = captureScreen("");
+			test.log(LogStatus.PASS, "  Success Screenshot : " + test.addScreenCapture(screen));
 		}
 
 		if (result.getStatus() == ITestResult.SKIP) {
@@ -156,7 +156,7 @@ public class TestBase {
 			test.log(LogStatus.ERROR,
 					result.getName() + " Test case FAILED due to below issues: " + result.getThrowable());
 			String screen = captureScreen("");
-			test.log(LogStatus.FAIL, " Failure Screenshot : " + test.addScreenCapture(screen));
+			test.log(LogStatus.FAIL, "  Failure Screenshot : " + test.addScreenCapture(screen));
 		} else
 
 		if (result.getStatus() == ITestResult.STARTED) {
@@ -164,7 +164,9 @@ public class TestBase {
 
 		}
 	}
-
+	
+	
+	
 	/* This Method is used for to capture screenshots in Extent reports */
 	public String captureScreen(String fileName) {
 		if (fileName == "") {
@@ -175,7 +177,7 @@ public class TestBase {
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			String reportDirectory = "\\src\\main\\java\\com\\test\\automation\\ZHL_MP\\screenshot\\";		
+			String reportDirectory = "\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\screenshot\\";		
 			destFile = new File(
 					(String) reportDirectory + fileName + "-" + formater.format(calendar.getTime()) + ".png");
 			FileUtils.copyFile(srcFile, destFile);
@@ -199,7 +201,7 @@ public class TestBase {
 	public void beforeMethod(Method result) {
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, "Browser Launched");
-		test.log(LogStatus.INFO, "Navigated to http://192.168.167.32/rakurakutaxi/");
+		test.log(LogStatus.INFO, "Navigated to http://vrr.infotracktelematics.com/itlfmsv12/");
 		test.log(LogStatus.INFO, result.getName() + " Test is Started");
 	}
 

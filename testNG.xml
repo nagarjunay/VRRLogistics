@@ -6,9 +6,9 @@
 	parallel="classes" thread-count="3">
 	<listeners>
 		<listener
-			class-name="com.test.automation.RakuRaku.customListener.Listener"></listener>
+			class-name="com.test.automation.VRRLogistics.customListener.Listener"></listener>
 		<listener
-			class-name="com.test.automation.RakuRaku.customListener.RetryListener"></listener>
+			class-name="com.test.automation.VRRLogistics.customListener.RetryListener"></listener>
 
 	</listeners>
 
@@ -16,7 +16,7 @@
 	<test name="LoginPage">
 		<classes>
 			 <class
-				name="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" />
+				name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin" />
 			<!-- <class
 				name="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" />-->
 		</classes> 
@@ -41,12 +41,12 @@
 		</classes>
 	</test>
  -->
-	<test name="API_Server_Down">
+	<!-- <test name="API_Server_Down">
 		<classes>
 			<class
 				name="com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown" />
 		</classes>
 	</test>
-
+ -->
 
 </suite>

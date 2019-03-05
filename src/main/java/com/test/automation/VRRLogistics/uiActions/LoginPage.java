@@ -16,16 +16,16 @@ public class LoginPage extends TestBase {
 
 	WebDriver driver;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//*[@id=\"username\"]")
 	WebElement loginId;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//*[@id=\"password\"]")
 	WebElement loginPassword;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "/html/body/div[2]/form[1]/div[6]/button")
 	WebElement submitButton;
 
-	@FindBy(xpath = "")
+	@FindBy(xpath = "/html/body/div[2]/form[1]/div[2]/span")
 	WebElement Errormessage;
 
      public LoginPage(WebDriver driver) {
@@ -41,8 +41,7 @@ public class LoginPage extends TestBase {
 		loginPassword.sendKeys(password);
 		log("Entered password====>>" + password + " and object is" + loginPassword.toString());
 		test.log(LogStatus.INFO, "Entered password is====>>" + password);
-		//Thread.sleep(2000);
-		expliciteWait(submitButton, 60 );
+		expliciteWait(submitButton, 20);
 		submitButton.click();
 		log("Clicked on submit button is" + submitButton.toString());
 		test.log(LogStatus.INFO, "Clicked on submit button button");
@@ -51,7 +50,7 @@ public class LoginPage extends TestBase {
 	public boolean getLoginSuccess() {
 
 		try {
-			driver.findElement(By.xpath("")).isDisplayed();
+			driver.findElement(By.xpath("/html/body/div[2]/form[1]/div[2]/span")).isDisplayed();
 			return false;
 		} catch (Exception e) {
 			return true;
