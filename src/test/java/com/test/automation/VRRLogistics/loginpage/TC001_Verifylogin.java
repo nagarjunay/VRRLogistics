@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.VRRLogistics.excelReader.Excel_Reader;
 import com.test.automation.VRRLogistics.testBase.TestBase;
 import com.test.automation.VRRLogistics.uiActions.LoginPage;
