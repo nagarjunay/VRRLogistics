@@ -27,8 +27,14 @@ public class LoginPage extends TestBase {
 
 	@FindBy(xpath = "/html/body/div[2]/form[1]/div[2]/span")
 	WebElement Errormessage;
+	
+	@FindBy()
+	WebElement Errormessage1;
+	
+	@FindBy()
+	WebElement Errormessage2;
 
-     public LoginPage(WebDriver driver) {
+	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 

@@ -477,3 +477,19 @@
 2019-03-05 16:57:33 INFO  LoginPage:62 - Clicked on submit button is[[ChromeDriver: chrome on XP (94b28fcfb488d2e2d9496b4f3470b9ce)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
 2019-03-05 16:57:33 INFO  TestBase:134 - =========>Finished verify login
 2019-03-05 16:57:34 INFO  TestBase:215 - browser closed
+2019-03-06 10:43:15 INFO  TestBase:134 - =========>Started verify login
+2019-03-06 10:43:15 INFO  LoginPage:62 - Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="username"]]
+2019-03-06 10:43:15 INFO  LoginPage:62 - Entered password====>>ift and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="password"]]
+2019-03-06 10:43:36 INFO  LoginPage:62 - Clicked on submit button is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-03-06 10:43:36 INFO  TestBase:134 - =========>Finished verify login
+2019-03-06 10:43:37 INFO  TestBase:134 - =========>Started verify login
+2019-03-06 10:43:37 INFO  LoginPage:62 - Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="username"]]
+2019-03-06 10:43:37 INFO  LoginPage:62 - Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="password"]]
+2019-03-06 10:43:58 INFO  LoginPage:62 - Clicked on submit button is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-03-06 10:43:58 INFO  TestBase:134 - =========>Finished verify login
+2019-03-06 10:43:59 INFO  TestBase:134 - =========>Started verify login
+2019-03-06 10:43:59 INFO  LoginPage:62 - Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="username"]]
+2019-03-06 10:43:59 INFO  LoginPage:62 - Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: //*[@id="password"]]
+2019-03-06 10:44:21 INFO  LoginPage:62 - Clicked on submit button is[[ChromeDriver: chrome on XP (6a8391ff3daed18f61591240aeb3b530)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-03-06 10:44:21 INFO  TestBase:134 - =========>Finished verify login
+2019-03-06 10:44:22 INFO  TestBase:215 - browser closed
