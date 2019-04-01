@@ -11,7 +11,6 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -30,12 +29,10 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-
 public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 
-	
 	public static WebDriver driver;
 	public Properties OR = new Properties();
 	public static ExtentReports extent;
@@ -52,17 +49,19 @@ public class TestBase {
 	}
 
 	/*
-	  static will load once on runtime, so can generate single extent report for
-	  every test run
+	 * static will load once on runtime, so can generate single extent report for
+	 * every test run
 	 */
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
-		//extent = new ExtentReports(System.getProperty("user.dir")
-			//	+ "/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics.html", false);
-		 extent = new
-		 ExtentReports(System.getProperty("user.dir")+"/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics_"+formater.format(calendar.getTime())+".html",
-		 true);
+		// extent = new ExtentReports(System.getProperty("user.dir")
+		// + "/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics.html",
+		// false);
+		extent = new ExtentReports(
+				System.getProperty("user.dir") + "/src/main/java/com/test/automation/VRRLogistics/report/VRRLogistics_"
+						+ formater.format(calendar.getTime()) + ".html",
+				true);
 	}
 
 	/* This method loads the data from the config file from main java folder */
@@ -74,8 +73,8 @@ public class TestBase {
 	}
 
 	/*
-	  This Method will select the different browsers as mentioned in config
-	  properties file
+	 * This Method will select the different browsers as mentioned in config
+	 * properties file
 	 */
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -90,7 +89,7 @@ public class TestBase {
 			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServer.exe");
 			log.info("creating object of" + browser);
 			driver = new InternetExplorerDriver();
-			
+
 		}
 
 	}
@@ -102,7 +101,6 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
-
 
 	/* This method is used for wait until element found */
 	public void expliciteWait(WebElement element, int timeToWaitInSec) {
@@ -134,10 +132,10 @@ public class TestBase {
 		log.info(data);
 		Reporter.log(data);
 	}
-	
+
 	/*
-	 This Method is used for generate Extent reports with screenshots for
-	 Pass/Fail test cases
+	 * This Method is used for generate Extent reports with screenshots for
+	 * Pass/Fail test cases
 	 */
 	public void getresult(ITestResult result) throws Exception {
 
@@ -164,9 +162,7 @@ public class TestBase {
 
 		}
 	}
-	
-	
-	
+
 	/* This Method is used for to capture screenshots in Extent reports */
 	public String captureScreen(String fileName) {
 		if (fileName == "") {
@@ -177,7 +173,7 @@ public class TestBase {
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyy_hh_mm_ss");
 		File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
-			String reportDirectory = "\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\screenshot\\";		
+			String reportDirectory = "\\src\\main\\java\\com\\test\\automation\\VRRLogistics\\screenshot\\";
 			destFile = new File(
 					(String) reportDirectory + fileName + "-" + formater.format(calendar.getTime()) + ".png");
 			FileUtils.copyFile(srcFile, destFile);
@@ -212,7 +208,7 @@ public class TestBase {
 
 	public void closeBrowser() {
 		driver.quit();
-		log.info("browser closed");
+		log.info("Browser closed");
 		extent.endTest(test);
 		extent.flush();
 	}

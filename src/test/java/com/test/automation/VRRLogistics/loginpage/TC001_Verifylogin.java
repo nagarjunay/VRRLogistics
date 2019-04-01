@@ -3,6 +3,8 @@ package com.test.automation.VRRLogistics.loginpage;
 
 import java.io.IOException;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -18,35 +20,27 @@ public class TC001_Verifylogin extends TestBase {
 	LoginPage loginpage;
 
 	@DataProvider
-	public Object[][] getDataFromExcel() throws Exception
-	{
-		System.out.println("print");
-		Object[][] data = Excel_Reader.read_excel("LoginTestData");//sheet name
+	public Object[][] getDataFromExcel() throws Exception {
+		Object[][] data = Excel_Reader.read_excel("LoginTestData");// sheet name
 		return data;
 	}
 
 	@BeforeClass
 	public void setUp() throws IOException {
 		init();
-		/*This is to launch browser*/
+		log.info("Browser opened");
 	}
 
-
 	@Test(dataProvider = "getDataFromExcel")
-	public void verifyLogin(String loginid, String password, String XPATH, String Expected_Message) throws Exception {
-		/*if (runMode.equalsIgnoreCase("n"))
-		{
+	public void verifyLogin(String loginid, String password, String runMode) throws Exception {
+		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");
-		}*/
+		}
 		log("=========>Started verify login");
-	    loginpage = new LoginPage(driver);
+		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
-		loginpage.verify_error_message(XPATH, Expected_Message);
-	    //Assert.assertEquals(true, loginpage.getLoginSuccess());
-		//getScreenShot("verifyLogin_" + loginid);
+		Assert.assertEquals(true, loginpage.getLoginSuccess());
 		log("=========>Finished verify login");
-		
-		
 	}
 
 }

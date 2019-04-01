@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]" parallel="classes">
-  <listeners>
-    <listener class-name="com.test.automation.VRRLogistics.customListener.Listener"/>
-    <listener class-name="com.test.automation.VRRLogistics.customListener.RetryListener"/>
-  </listeners>
-  <test thread-count="3" name="LoginPage(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin">
+      <class name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption">
         <methods>
           <include name="setUp"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="verifyLogin"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin -->
+      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC002_MasterOption -->
     </classes>
-  </test> <!-- LoginPage(failed) -->
-</suite> <!-- Failed suite [Regression suite 1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

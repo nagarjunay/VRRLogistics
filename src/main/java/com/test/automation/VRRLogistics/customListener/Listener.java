@@ -28,21 +28,24 @@ public class Listener extends TestBase implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 
-		if(result.isSuccess()){
+		if (result.isSuccess()) {
 			Calendar calendar = Calendar.getInstance();
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-			
+
 			String methodName = result.getName();
 
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/VRRLogistics/";
-				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
+						+ "/src/main/java/com/test/automation/VRRLogistics/";
+				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_"
+						+ formater.format(calendar.getTime()) + ".png");
+
 				FileUtils.copyFile(scrFile, destFile);
-				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
-				
+
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath()
+						+ "' height='100' width='100'/> </a>");
+
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
@@ -51,21 +54,24 @@ public class Listener extends TestBase implements ITestListener {
 	}
 
 	public void onTestFailure(ITestResult result) {
-		if(!result.isSuccess()){
+		if (!result.isSuccess()) {
 			Calendar calendar = Calendar.getInstance();
 			SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-			
+
 			String methodName = result.getName();
 
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			try {
-				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath() + "/src/main/java/com/test/automation/VRRLogistics/";
-				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_" + formater.format(calendar.getTime()) + ".png");
-				
+				String reportDirectory = new File(System.getProperty("user.dir")).getAbsolutePath()
+						+ "/src/main/java/com/test/automation/VRRLogistics/";
+				File destFile = new File((String) reportDirectory + "/failure_screenshots/" + methodName + "_"
+						+ formater.format(calendar.getTime()) + ".png");
+
 				FileUtils.copyFile(scrFile, destFile);
-				
-				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/> </a>");
-				
+
+				Reporter.log("<a href='" + destFile.getAbsolutePath() + "'> <img src='" + destFile.getAbsolutePath()
+						+ "' height='100' width='100'/> </a>");
+
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
