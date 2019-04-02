@@ -5,12 +5,15 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +21,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -185,6 +189,35 @@ public class TestBase {
 		}
 		return destFile.toString();
 	}
+	
+	
+	
+	// /html/body/div[2]/div/ul/li[3]
+	
+	
+	public static ArrayList<Object> dropdown(String xpathExpression)
+	{
+		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
+		ArrayList<Object> array_list = new ArrayList<Object>();
+		
+		for (WebElement webElement : li) 
+		{
+			array_list.add(webElement.getText());	
+		}
+		return array_list;
+	}
+	
+	
+	public static void mouse_movement(WebDriver driver, String xpathExpression)
+	{
+		Actions act = new Actions(driver);
+		WebElement target = driver.findElement(By.xpath(xpathExpression));
+		act.moveToElement(target).build().perform();
+	}
+	
+	
+	
+	
 
 	@AfterMethod
 	public void afterMethod(ITestResult result) throws Exception {

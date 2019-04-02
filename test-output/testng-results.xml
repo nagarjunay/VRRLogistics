@@ -1,58 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
       <![CDATA[=========>Started Master Module]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="username"]]]]>
+      <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="username"]]]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="password"]]]]>
     </line>
     <line>
       <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button']]>
     </line>
     <line>
-      <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on master id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //span[text()='Masters']]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on admin id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk7"]/a]]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk166"]/a]]]>
-    </line>
-    <line>
-      <![CDATA[=========>Finished Master Module]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-01_04_2019_03_31_17.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-01_04_2019_03_31_17.png' height='100' width='100'/></a>]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-02_04_2019_05_28_49.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-02_04_2019_05_28_49.png' height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77080" started-at="2019-04-01T10:00:02Z" finished-at="2019-04-01T10:01:19Z">
+  <suite name="Default suite" duration-ms="93966" started-at="2019-04-02T11:57:16Z" finished-at="2019-04-02T11:58:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77080" started-at="2019-04-01T10:00:02Z" finished-at="2019-04-01T10:01:19Z">
-      <class name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f]" name="setUp" is-config="true" duration-ms="8611" started-at="2019-04-01T10:00:02Z" finished-at="2019-04-01T10:00:11Z">
+    <test name="Default test" duration-ms="93966" started-at="2019-04-02T11:57:16Z" finished-at="2019-04-02T11:58:50Z">
+      <class name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f]" name="setUp" is-config="true" duration-ms="25790" started-at="2019-04-02T11:57:16Z" finished-at="2019-04-02T11:57:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2019-04-01T10:00:11Z" finished-at="2019-04-01T10:00:11Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-04-02T11:57:43Z" finished-at="2019-04-02T11:57:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.VRRLogistics.dashboard.TC002_MasterOption.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.VRRLogistics.dashboard.TC003_UserProfile.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f]" name="verifyLogin" duration-ms="65816" started-at="2019-04-01T10:00:11Z" data-provider="getDataFromExcel" finished-at="2019-04-01T10:01:17Z">
+        <test-method status="FAIL" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f]" name="verifyLogin" duration-ms="66020" started-at="2019-04-02T11:57:43Z" data-provider="getDataFromExcel" finished-at="2019-04-02T11:58:49Z">
           <params>
             <param index="0">
               <value>
@@ -70,55 +55,76 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:68)
+at com.test.automation.VRRLogistics.testBase.TestBase.mouse_movement(TestBase.java:213)
+at com.test.automation.VRRLogistics.uiActions.UserProfile.test(UserProfile.java:26)
+at com.test.automation.VRRLogistics.dashboard.TC003_UserProfile.verifyLogin(TC003_UserProfile.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
               <![CDATA[=========>Started Master Module]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="username"]]]]>
+              <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="username"]]]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="password"]]]]>
             </line>
             <line>
               <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button']]>
             </line>
-            <line>
-              <![CDATA[Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on master id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //span[text()='Masters']]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on admin id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk7"]/a]]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (af65a6b375f7225073be3a99b10fd88d)] -> xpath: //*[@id="lnk166"]/a]]]>
-            </line>
-            <line>
-              <![CDATA[=========>Finished Master Module]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f]" name="afterMethod" is-config="true" duration-ms="816" started-at="2019-04-01T10:01:17Z" finished-at="2019-04-01T10:01:18Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f]" name="afterMethod" is-config="true" duration-ms="377" started-at="2019-04-02T11:58:49Z" finished-at="2019-04-02T11:58:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_MasterOption.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f] output==========>Started Master Module]]]>
+                <![CDATA[[TestResult name=verifyLogin status=FAILURE method=TC003_UserProfile.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f] output==========>Started Master Module]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-01_04_2019_03_31_17.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-01_04_2019_03_31_17.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-02_04_2019_05_28_49.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-02_04_2019_05_28_49.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC002_MasterOption@87f383f]" name="endTest" is-config="true" duration-ms="1094" started-at="2019-04-01T10:01:18Z" finished-at="2019-04-01T10:01:19Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f]" name="endTest" is-config="true" duration-ms="1065" started-at="2019-04-02T11:58:49Z" finished-at="2019-04-02T11:58:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC002_MasterOption -->
+      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC003_UserProfile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
