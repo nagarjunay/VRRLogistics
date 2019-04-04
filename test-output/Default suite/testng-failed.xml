@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile">
+      <class name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword">
         <methods>
+          <include name="setUp"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="verifyLogin" invocation-numbers="0"/>
-          <include name="setUp"/>
+          <include name="Changepassword_validation"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC003_UserProfile -->
+      </class> <!-- com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

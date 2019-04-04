@@ -21,6 +21,11 @@ public class Listener extends TestBase implements ITestListener {
 	 * WebDriver driver; public Listener(WebDriver driver) { this.driver= driver; }
 	 */
 
+	public Listener() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public void onTestStart(ITestResult result) {
 		Reporter.log("Test is started:" + result.getName());
 

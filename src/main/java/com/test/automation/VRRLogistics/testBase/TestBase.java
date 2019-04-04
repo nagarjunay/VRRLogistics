@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -189,35 +190,58 @@ public class TestBase {
 		}
 		return destFile.toString();
 	}
+
 	
-	
-	
-	// /html/body/div[2]/div/ul/li[3]
-	
-	
-	public static ArrayList<Object> dropdown(String xpathExpression)
-	{
+	/*This method is used for dynamic list to store values and compare */
+	public static ArrayList<Object> dropdown(String xpathExpression) {
 		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
 		ArrayList<Object> array_list = new ArrayList<Object>();
-		
-		for (WebElement webElement : li) 
-		{
-			array_list.add(webElement.getText());	
+
+		for (WebElement webElement : li) {
+			array_list.add(webElement.getText());
 		}
 		return array_list;
 	}
-	
-	
-	public static void mouse_movement(WebDriver driver, String xpathExpression)
-	{
+
+	/*This method is used for Mouse over actions */ 
+	public static void mouse_movement(WebDriver driver, String xpathExpression) {
 		Actions act = new Actions(driver);
 		WebElement target = driver.findElement(By.xpath(xpathExpression));
 		act.moveToElement(target).build().perform();
 	}
-	
-	
-	
-	
+
+	/*This method is used for List Selection */ 
+	public static void list_selection_and_click(String xpathExpression, String string) {
+		List<WebElement> li = driver.findElements(By.xpath(xpathExpression));
+		for (WebElement element : li) {
+			if (element.getText().equalsIgnoreCase(string)) {
+				element.click();
+				break;
+			}
+		}
+	}
+
+	/*This method is used for handling Alert/pop-up */ 
+	public static void handling_alert_popup() throws Exception {
+		Alert alert = driver.switchTo().alert();
+
+		// Capturing alert message
+		String alertMessage = driver.switchTo().alert().getText();
+
+		// Displaying alert message
+		System.out.println(alertMessage);
+		test.log(LogStatus.INFO, "Captured alert message is: " + alertMessage);
+		log.info("Captured alert message is: " + alertMessage);
+		Thread.sleep(5000);
+
+		// Accepting alert
+		alert.accept();
+	}
+
+	/* This method is used for handling frames */
+	public static void handling_frame(int index_number) {
+		driver.switchTo().frame(index_number);
+	}
 
 	@AfterMethod
 	public void afterMethod(ITestResult result) throws Exception {

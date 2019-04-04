@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 02 17:27:16 IST 2019</td>
+<td>Started on:</td><td>Thu Apr 04 15:23:57 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>93 seconds (93966 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105180 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,91 +67,31 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.dashboard.TC003_UserProfile.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.dashboard.TC003_UserProfile<br>Parameters: vrradmin, vrr123, y<br/>
-<a href="#Output-1416415959" onClick='toggleBox("Output-1416415959", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword.verifyLogo()'><b>verifyLogo</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword<br>Parameters: vrradmin, vrr123, y<br/>
+<a href="#Output-821405322" onClick='toggleBox("Output-821405322", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1416415959" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1416415959">
-=========>Started Master Module<br/>
-Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="password"]]<br/>
+<a href="#Output-821405322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-821405322">
+=========>Started to click on Change Password option<br/>
+Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="username"]]<br/>
+Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="password"]]<br/>
 Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'<br/>
+Performing mouse over on user profile dropdown<br/>
+Clicking on Change password from user profile dropdown<br/>
+=========>Clicked on Change password option<br/>
 </div>
 </td>
-<td><div><pre>java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:68)
-	at com.test.automation.VRRLogistics.testBase.TestBase.mouse_movement(TestBase.java:213)
-	at com.test.automation.VRRLogistics.uiActions.UserProfile.test(UserProfile.java:26)
-	at com.test.automation.VRRLogistics.dashboard.TC003_UserProfile.verifyLogin(TC003_UserProfile.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1416415959", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1416415959'><pre>java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:68)
-	at com.test.automation.VRRLogistics.testBase.TestBase.mouse_movement(TestBase.java:213)
-	at com.test.automation.VRRLogistics.uiActions.UserProfile.test(UserProfile.java:26)
-	at com.test.automation.VRRLogistics.dashboard.TC003_UserProfile.verifyLogin(TC003_UserProfile.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>66</td>
-<td>com.test.automation.VRRLogistics.dashboard.TC003_UserProfile@87f383f</td></tr>
+<td></td>
+<td>74</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f</td></tr>
 </table><p>
 </body>
 </html>

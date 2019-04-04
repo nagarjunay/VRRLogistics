@@ -941,3 +941,663 @@
 2019-04-02 17:27:43 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3bf2bc9ac1bf9016218a014d1daa7ac8)] -> xpath: //*[@id="password"]]
 2019-04-02 17:28:49 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
 2019-04-02 17:28:50 INFO  TestBase:244 - Browser closed
+2019-04-02 17:35:04 INFO  TestBase:30 - Browser opened
+2019-04-02 17:35:50 INFO  TestBase:136 - =========>Started Master Module
+2019-04-02 17:35:52 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d0dde885167f85a78d07c4bd3897f0e4)] -> xpath: //*[@id="username"]]
+2019-04-02 17:35:53 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d0dde885167f85a78d07c4bd3897f0e4)] -> xpath: //*[@id="password"]]
+2019-04-02 17:36:57 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-02 17:49:13 INFO  TestBase:35 - Browser opened
+2019-04-02 17:49:14 INFO  TestBase:140 - =========>Started Master Module
+2019-04-02 17:49:15 INFO  TestBase:248 - Browser closed
+2019-04-02 17:51:44 INFO  TestBase:35 - Browser opened
+2019-04-02 17:51:45 INFO  TestBase:140 - =========>Started Master Module
+2019-04-02 17:51:46 INFO  TestBase:248 - Browser closed
+2019-04-02 17:57:09 INFO  TestBase:35 - Browser opened
+2019-04-02 17:58:53 INFO  TestBase:140 - =========>Started Master Module
+2019-04-02 17:59:19 INFO  TestBase:248 - Browser closed
+2019-04-02 18:04:10 INFO  TestBase:140 - =========>Started Master Module
+2019-04-02 18:04:11 INFO  TestBase:248 - Browser closed
+2019-04-02 18:11:41 INFO  TestBase:145 - =========>Started Master Module
+2019-04-02 18:17:30 INFO  TestBase:253 - Browser closed
+2019-04-02 18:20:09 INFO  TestBase:146 - =========>Started Master Module
+2019-04-02 18:20:11 INFO  TestBase:254 - Browser closed
+2019-04-03 09:53:00 INFO  TestBase:29 - Browser opened
+2019-04-03 09:53:01 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 09:53:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (fa38520cf94a4c7966ee0f9b41c09098)] -> xpath: //*[@id="username"]]
+2019-04-03 09:53:02 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (fa38520cf94a4c7966ee0f9b41c09098)] -> xpath: //*[@id="password"]]
+2019-04-03 09:54:23 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 09:54:24 INFO  TestBase:243 - Browser closed
+2019-04-03 10:09:14 INFO  TestBase:29 - Browser opened
+2019-04-03 10:09:15 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:09:15 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: //*[@id="username"]]
+2019-04-03 10:09:15 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: //*[@id="password"]]
+2019-04-03 10:10:24 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:10:24 INFO  Master_DashBoard:99 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 10:10:24 INFO  Master_DashBoard:99 - Clicked on master id====>>[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (2e783a093fef4647b3e080034f026cfb)] -> xpath: //span[text()='Masters']]
+2019-04-03 10:10:26 INFO  TestBase:243 - Browser closed
+2019-04-03 10:12:20 INFO  TestBase:29 - Browser opened
+2019-04-03 10:12:21 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:12:21 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: //*[@id="username"]]
+2019-04-03 10:12:21 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: //*[@id="password"]]
+2019-04-03 10:13:36 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:13:36 INFO  Master_DashBoard:100 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 10:13:36 INFO  Master_DashBoard:100 - Clicked on master id====>>[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (3f7a7e22d5fbf831c3a76ae576e4c5a9)] -> xpath: //span[text()='Masters']]
+2019-04-03 10:13:37 INFO  TestBase:243 - Browser closed
+2019-04-03 10:15:24 INFO  TestBase:30 - Browser opened
+2019-04-03 10:15:25 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:15:25 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (6dc97177caddb17627d21aec5083704a)] -> xpath: //*[@id="username"]]
+2019-04-03 10:15:25 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (6dc97177caddb17627d21aec5083704a)] -> xpath: //*[@id="password"]]
+2019-04-03 10:16:34 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:16:35 INFO  TestBase:243 - Browser closed
+2019-04-03 10:24:49 INFO  TestBase:30 - Browser opened
+2019-04-03 10:24:50 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:24:50 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (ed16ea14887cacee065347a93171a92e)] -> xpath: //*[@id="username"]]
+2019-04-03 10:24:50 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (ed16ea14887cacee065347a93171a92e)] -> xpath: //*[@id="password"]]
+2019-04-03 10:25:53 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:25:54 INFO  TestBase:243 - Browser closed
+2019-04-03 10:28:04 INFO  TestBase:29 - Browser opened
+2019-04-03 10:28:04 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:28:05 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="username"]]
+2019-04-03 10:28:05 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="password"]]
+2019-04-03 10:29:13 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:29:13 INFO  Master_DashBoard:100 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 10:29:13 INFO  Master_DashBoard:100 - Clicked on master id====>>[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //span[text()='Masters']]
+2019-04-03 10:29:14 INFO  Master_DashBoard:100 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 10:29:16 INFO  Master_DashBoard:100 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (6bf721a3b083098e9366d44a271fde31)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 10:29:19 INFO  TestBase:243 - Browser closed
+2019-04-03 10:34:47 INFO  TestBase:29 - Browser opened
+2019-04-03 10:34:47 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:34:48 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="username"]]
+2019-04-03 10:34:48 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="password"]]
+2019-04-03 10:35:54 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:35:54 INFO  Master_DashBoard:101 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 10:35:54 INFO  Master_DashBoard:101 - Clicked on master id====>>[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //span[text()='Masters']]
+2019-04-03 10:35:54 INFO  Master_DashBoard:101 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 10:35:55 INFO  Master_DashBoard:101 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (5f61eca5f0ab8186f88a0b538e388197)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 10:35:57 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 10:35:58 INFO  TestBase:243 - Browser closed
+2019-04-03 10:39:16 INFO  TestBase:30 - Browser opened
+2019-04-03 10:39:17 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:39:17 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3f19768d48a002d277fddb1ff35cef38)] -> xpath: //*[@id="username"]]
+2019-04-03 10:39:17 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3f19768d48a002d277fddb1ff35cef38)] -> xpath: //*[@id="password"]]
+2019-04-03 10:40:21 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:40:21 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 10:40:22 INFO  TestBase:243 - Browser closed
+2019-04-03 10:41:13 INFO  TestBase:30 - Browser opened
+2019-04-03 10:41:13 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 10:41:14 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (bd741b6dfbc34078f43294e278215490)] -> xpath: //*[@id="username"]]
+2019-04-03 10:41:14 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (bd741b6dfbc34078f43294e278215490)] -> xpath: //*[@id="password"]]
+2019-04-03 10:42:18 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 10:42:18 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 10:42:19 INFO  TestBase:243 - Browser closed
+2019-04-03 11:05:01 INFO  TestBase:32 - Browser opened
+2019-04-03 11:05:02 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 11:05:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (e346ad3d2c3ef8393ecf65b10a4fdebb)] -> xpath: //*[@id="username"]]
+2019-04-03 11:05:02 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (e346ad3d2c3ef8393ecf65b10a4fdebb)] -> xpath: //*[@id="password"]]
+2019-04-03 11:06:16 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 11:06:16 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 11:06:17 INFO  TestBase:245 - Browser closed
+2019-04-03 11:10:20 INFO  TestBase:32 - Browser opened
+2019-04-03 11:12:54 INFO  TestBase:32 - Browser opened
+2019-04-03 11:13:47 INFO  TestBase:245 - Browser closed
+2019-04-03 11:15:06 INFO  TestBase:32 - Browser opened
+2019-04-03 11:15:47 INFO  TestBase:245 - Browser closed
+2019-04-03 11:17:13 INFO  TestBase:32 - Browser opened
+2019-04-03 11:18:14 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 11:18:14 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (8fb8e1fa8f9ed3a571b5a28ae229e876)] -> xpath: //*[@id="username"]]
+2019-04-03 11:18:14 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (8fb8e1fa8f9ed3a571b5a28ae229e876)] -> xpath: //*[@id="password"]]
+2019-04-03 11:19:24 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 11:19:24 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 11:19:25 INFO  TestBase:245 - Browser closed
+2019-04-03 11:22:03 INFO  TestBase:32 - Browser opened
+2019-04-03 11:23:04 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 11:23:04 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (f8f126ae805aaaa385483978462eff90)] -> xpath: //*[@id="username"]]
+2019-04-03 11:23:04 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (f8f126ae805aaaa385483978462eff90)] -> xpath: //*[@id="password"]]
+2019-04-03 11:24:12 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 11:24:12 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 11:24:14 INFO  TestBase:245 - Browser closed
+2019-04-03 11:32:43 INFO  TestBase:32 - Browser opened
+2019-04-03 11:56:40 INFO  TestBase:32 - Browser opened
+2019-04-03 11:59:25 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:00:29 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (81ee91cf6ecb122b80e8bc634bd2c95b)] -> xpath: //*[@id="username"]]
+2019-04-03 12:00:32 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (81ee91cf6ecb122b80e8bc634bd2c95b)] -> xpath: //*[@id="password"]]
+2019-04-03 12:02:06 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:02:14 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 12:02:29 INFO  TestBase:245 - Browser closed
+2019-04-03 12:04:46 INFO  TestBase:31 - Browser opened
+2019-04-03 12:05:47 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:05:47 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (e6a88fd9235e986e6f8c7f53a6f5131c)] -> xpath: //*[@id="username"]]
+2019-04-03 12:05:47 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (e6a88fd9235e986e6f8c7f53a6f5131c)] -> xpath: //*[@id="password"]]
+2019-04-03 12:06:56 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:06:56 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 12:06:58 INFO  TestBase:245 - Browser closed
+2019-04-03 12:08:40 INFO  TestBase:31 - Browser opened
+2019-04-03 12:09:41 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:09:42 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (45291114bce346005584c5095307b27d)] -> xpath: //*[@id="username"]]
+2019-04-03 12:09:42 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (45291114bce346005584c5095307b27d)] -> xpath: //*[@id="password"]]
+2019-04-03 12:11:05 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:11:05 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 12:11:06 INFO  TestBase:245 - Browser closed
+2019-04-03 12:22:08 INFO  TestBase:31 - Browser opened
+2019-04-03 12:23:09 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:23:09 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (423d1fa3f8ed0f4a98ec6f9f606a8525)] -> xpath: //*[@id="username"]]
+2019-04-03 12:23:09 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (423d1fa3f8ed0f4a98ec6f9f606a8525)] -> xpath: //*[@id="password"]]
+2019-04-03 12:24:12 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:24:13 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 12:24:14 INFO  TestBase:245 - Browser closed
+2019-04-03 12:26:15 INFO  TestBase:31 - Browser opened
+2019-04-03 12:26:15 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:26:15 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (aae2e6bc88be8ace40a9b5f6610527d9)] -> xpath: //*[@id="username"]]
+2019-04-03 12:26:16 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (aae2e6bc88be8ace40a9b5f6610527d9)] -> xpath: //*[@id="password"]]
+2019-04-03 12:27:19 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:27:21 INFO  TestBase:245 - Browser closed
+2019-04-03 12:40:18 INFO  TestBase:31 - Browser opened
+2019-04-03 12:40:19 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:44:55 INFO  TestBase:245 - Browser closed
+2019-04-03 12:51:01 INFO  TestBase:31 - Browser opened
+2019-04-03 12:51:02 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:51:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (86e4dc15563aff2ebd680a296261f308)] -> xpath: //*[@id="username"]]
+2019-04-03 12:51:02 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (86e4dc15563aff2ebd680a296261f308)] -> xpath: //*[@id="password"]]
+2019-04-03 12:52:06 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:52:08 INFO  TestBase:245 - Browser closed
+2019-04-03 12:53:50 INFO  TestBase:31 - Browser opened
+2019-04-03 12:53:51 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:53:51 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (032ec143e132b268880f44bbee22c860)] -> xpath: //*[@id="username"]]
+2019-04-03 12:53:51 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (032ec143e132b268880f44bbee22c860)] -> xpath: //*[@id="password"]]
+2019-04-03 12:54:55 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:54:57 INFO  TestBase:245 - Browser closed
+2019-04-03 12:58:46 INFO  TestBase:31 - Browser opened
+2019-04-03 12:58:47 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 12:58:47 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (e721db24765e871f3fa7ce819b43a192)] -> xpath: //*[@id="username"]]
+2019-04-03 12:58:47 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (e721db24765e871f3fa7ce819b43a192)] -> xpath: //*[@id="password"]]
+2019-04-03 12:59:51 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 12:59:52 INFO  TestBase:245 - Browser closed
+2019-04-03 13:00:54 INFO  TestBase:31 - Browser opened
+2019-04-03 13:00:54 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:00:55 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (2c9d075d3f3c693e3d72ce02c75c6b14)] -> xpath: //*[@id="username"]]
+2019-04-03 13:00:55 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (2c9d075d3f3c693e3d72ce02c75c6b14)] -> xpath: //*[@id="password"]]
+2019-04-03 13:01:58 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:02:00 INFO  TestBase:245 - Browser closed
+2019-04-03 13:03:04 INFO  TestBase:31 - Browser opened
+2019-04-03 13:03:05 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:03:05 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d8f0c20b0ef864bd788cf418c25b304f)] -> xpath: //*[@id="username"]]
+2019-04-03 13:03:05 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d8f0c20b0ef864bd788cf418c25b304f)] -> xpath: //*[@id="password"]]
+2019-04-03 13:04:08 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:04:10 INFO  TestBase:245 - Browser closed
+2019-04-03 13:05:17 INFO  TestBase:31 - Browser opened
+2019-04-03 13:05:18 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:05:18 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (ca4b58bebdce2a619741e0300c19f62d)] -> xpath: //*[@id="username"]]
+2019-04-03 13:05:18 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (ca4b58bebdce2a619741e0300c19f62d)] -> xpath: //*[@id="password"]]
+2019-04-03 13:06:22 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:06:23 INFO  TestBase:245 - Browser closed
+2019-04-03 13:07:43 INFO  TestBase:31 - Browser opened
+2019-04-03 13:07:44 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:07:44 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (1d11ea38aec0ef01fc7acb55df3cae57)] -> xpath: //*[@id="username"]]
+2019-04-03 13:07:44 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (1d11ea38aec0ef01fc7acb55df3cae57)] -> xpath: //*[@id="password"]]
+2019-04-03 13:08:48 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:08:49 INFO  TestBase:245 - Browser closed
+2019-04-03 13:09:18 INFO  TestBase:31 - Browser opened
+2019-04-03 13:09:18 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:09:19 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (b52f90f6a0c52682e28cbbc809da8349)] -> xpath: //*[@id="username"]]
+2019-04-03 13:09:19 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (b52f90f6a0c52682e28cbbc809da8349)] -> xpath: //*[@id="password"]]
+2019-04-03 13:10:23 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:10:24 INFO  TestBase:245 - Browser closed
+2019-04-03 13:11:34 INFO  TestBase:31 - Browser opened
+2019-04-03 13:11:35 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:11:35 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (001b1c27289cbcec74325cbe8b6a3e16)] -> xpath: //*[@id="username"]]
+2019-04-03 13:11:36 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (001b1c27289cbcec74325cbe8b6a3e16)] -> xpath: //*[@id="password"]]
+2019-04-03 13:12:40 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:12:41 INFO  TestBase:245 - Browser closed
+2019-04-03 13:14:13 INFO  TestBase:31 - Browser opened
+2019-04-03 13:14:13 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:14:14 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (1a7a9bc88cef0f402998b5fabe0d6eb9)] -> xpath: //*[@id="username"]]
+2019-04-03 13:14:14 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (1a7a9bc88cef0f402998b5fabe0d6eb9)] -> xpath: //*[@id="password"]]
+2019-04-03 13:15:17 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:15:19 INFO  TestBase:245 - Browser closed
+2019-04-03 13:15:46 INFO  TestBase:31 - Browser opened
+2019-04-03 13:15:47 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:15:47 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (f830e032cb7c82fc008c32e9376ceb70)] -> xpath: //*[@id="username"]]
+2019-04-03 13:15:47 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (f830e032cb7c82fc008c32e9376ceb70)] -> xpath: //*[@id="password"]]
+2019-04-03 13:16:51 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:16:52 INFO  TestBase:245 - Browser closed
+2019-04-03 13:17:28 INFO  TestBase:31 - Browser opened
+2019-04-03 13:17:28 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:17:29 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (98ac5156effb60b232d33328e409f07b)] -> xpath: //*[@id="username"]]
+2019-04-03 13:17:29 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (98ac5156effb60b232d33328e409f07b)] -> xpath: //*[@id="password"]]
+2019-04-03 13:18:32 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:18:33 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 13:18:34 INFO  TestBase:245 - Browser closed
+2019-04-03 13:20:12 INFO  TestBase:31 - Browser opened
+2019-04-03 13:20:13 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 13:20:13 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (7a6e0e63f3c0bbb074b5dc30f1f5ec8e)] -> xpath: //*[@id="username"]]
+2019-04-03 13:20:13 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (7a6e0e63f3c0bbb074b5dc30f1f5ec8e)] -> xpath: //*[@id="password"]]
+2019-04-03 13:21:17 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 13:21:17 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 13:21:18 INFO  TestBase:245 - Browser closed
+2019-04-03 15:01:43 INFO  TestBase:29 - Browser opened
+2019-04-03 15:01:44 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:01:44 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="username"]]
+2019-04-03 15:01:44 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="password"]]
+2019-04-03 15:02:47 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:02:48 INFO  Master_DashBoard:100 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:02:48 INFO  Master_DashBoard:100 - Clicked on master id====>>[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:02:48 INFO  Master_DashBoard:100 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:02:49 INFO  Master_DashBoard:100 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (25fdeb5c17f15ee0dc977d30fc127823)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:02:51 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:02:52 INFO  TestBase:245 - Browser closed
+2019-04-03 15:05:13 INFO  TestBase:29 - Browser opened
+2019-04-03 15:05:14 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:05:14 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="username"]]
+2019-04-03 15:05:14 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="password"]]
+2019-04-03 15:06:18 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:06:18 INFO  Master_DashBoard:100 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:06:19 INFO  Master_DashBoard:100 - Clicked on master id====>>[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:06:19 INFO  Master_DashBoard:100 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:06:20 INFO  Master_DashBoard:100 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (ccd9f7e702b60fa9fd546394d190dc20)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:06:22 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:06:23 INFO  TestBase:245 - Browser closed
+2019-04-03 15:15:16 INFO  TestBase:29 - Browser opened
+2019-04-03 15:15:17 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:15:17 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="username"]]
+2019-04-03 15:15:17 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="password"]]
+2019-04-03 15:16:23 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:16:24 INFO  Master_DashBoard:103 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:16:24 INFO  Master_DashBoard:103 - Clicked on master id====>>[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:16:24 INFO  Master_DashBoard:103 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:16:25 INFO  Master_DashBoard:103 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (a7d40127242307311497051d9b4311ec)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:16:27 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:16:28 INFO  TestBase:245 - Browser closed
+2019-04-03 15:27:33 INFO  TestBase:29 - Browser opened
+2019-04-03 15:27:34 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:27:34 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="username"]]
+2019-04-03 15:27:34 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="password"]]
+2019-04-03 15:28:38 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:28:38 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:28:38 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:28:39 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:28:39 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (0d17a758ff44b9133981a5866efb01f7)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:28:40 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:28:41 INFO  TestBase:245 - Browser closed
+2019-04-03 15:32:23 INFO  TestBase:29 - Browser opened
+2019-04-03 15:32:24 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:32:24 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="username"]]
+2019-04-03 15:32:24 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="password"]]
+2019-04-03 15:33:28 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:33:28 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:33:28 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:33:29 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:33:29 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (2413064f010b7e6da3c6eec04022ca96)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:33:30 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:33:31 INFO  TestBase:245 - Browser closed
+2019-04-03 15:33:55 INFO  TestBase:29 - Browser opened
+2019-04-03 15:33:56 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:33:56 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="username"]]
+2019-04-03 15:33:56 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="password"]]
+2019-04-03 15:35:00 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:35:00 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:35:00 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:35:00 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:35:02 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (dca22d292cbf591309c5d5b8721cbb55)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:35:02 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:35:03 INFO  TestBase:245 - Browser closed
+2019-04-03 15:43:04 INFO  TestBase:29 - Browser opened
+2019-04-03 15:43:05 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:43:05 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="username"]]
+2019-04-03 15:43:05 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="password"]]
+2019-04-03 15:44:10 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:44:10 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 15:44:10 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //span[text()='Masters']]
+2019-04-03 15:44:10 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 15:44:11 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (8ea5a68e1e151a5e964b5573c53fbfa5)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 15:44:12 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:44:13 INFO  TestBase:245 - Browser closed
+2019-04-03 15:46:06 INFO  TestBase:31 - Browser opened
+2019-04-03 15:46:07 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:46:07 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (5214c30037bfaebc66db247e1cae7b55)] -> xpath: //*[@id="username"]]
+2019-04-03 15:46:07 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (5214c30037bfaebc66db247e1cae7b55)] -> xpath: //*[@id="password"]]
+2019-04-03 15:47:12 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:47:14 INFO  TestBase:245 - Browser closed
+2019-04-03 15:50:33 INFO  TestBase:31 - Browser opened
+2019-04-03 15:50:34 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:50:34 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d7439d34cbf4bc4d72631727dcfd0775)] -> xpath: //*[@id="username"]]
+2019-04-03 15:50:34 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d7439d34cbf4bc4d72631727dcfd0775)] -> xpath: //*[@id="password"]]
+2019-04-03 15:51:42 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:51:43 INFO  TestBase:245 - Browser closed
+2019-04-03 15:52:42 INFO  TestBase:31 - Browser opened
+2019-04-03 15:52:43 INFO  TestBase:136 - =========>Started Master Module
+2019-04-03 15:52:43 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (8932c71367cc85f6a465023e6d934f2b)] -> xpath: //*[@id="username"]]
+2019-04-03 15:52:43 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (8932c71367cc85f6a465023e6d934f2b)] -> xpath: //*[@id="password"]]
+2019-04-03 15:53:48 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 15:53:49 INFO  TestBase:136 - =========>Finished Master Module
+2019-04-03 15:53:50 INFO  TestBase:245 - Browser closed
+2019-04-03 16:47:20 INFO  TestBase:29 - Browser opened
+2019-04-03 16:47:21 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 16:47:21 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="username"]]
+2019-04-03 16:47:21 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="password"]]
+2019-04-03 16:48:27 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 16:48:27 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 16:48:27 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //span[text()='Masters']]
+2019-04-03 16:48:28 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 16:48:28 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (b5ad65291108b6985aa5b647e7be6b37)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 16:48:28 INFO  Master_DashBoard:104 - Verifying Total Number of colums in a table
+2019-04-03 16:48:29 INFO  Master_DashBoard:104 - Verifying Total Number of rows in a table
+2019-04-03 16:48:31 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 16:48:32 INFO  TestBase:245 - Browser closed
+2019-04-03 17:02:02 INFO  TestBase:29 - Browser opened
+2019-04-03 17:02:03 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:02:03 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="username"]]
+2019-04-03 17:02:03 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="password"]]
+2019-04-03 17:03:12 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:03:12 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:03:12 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:03:12 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:03:16 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (52ecdb3e8b5dbb18c3b5e8114574371a)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:03:16 INFO  Master_DashBoard:104 - Verifying Total Number of colums in a table
+2019-04-03 17:03:16 INFO  Master_DashBoard:104 - Verifying Total Number of rows in a table
+2019-04-03 17:03:19 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:03:20 INFO  TestBase:245 - Browser closed
+2019-04-03 17:04:46 INFO  TestBase:29 - Browser opened
+2019-04-03 17:04:46 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:04:47 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="username"]]
+2019-04-03 17:04:47 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="password"]]
+2019-04-03 17:05:49 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:05:49 INFO  Master_DashBoard:104 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:05:50 INFO  Master_DashBoard:104 - Clicked on master id====>>[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:05:50 INFO  Master_DashBoard:104 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:05:54 INFO  Master_DashBoard:104 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (136030a10233d69ea739ac7bd7563e09)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:05:54 INFO  Master_DashBoard:104 - Verifying Total Number of colums in a table
+2019-04-03 17:05:54 INFO  Master_DashBoard:104 - Verifying Total Number of rows in a table
+2019-04-03 17:05:56 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:05:57 INFO  TestBase:245 - Browser closed
+2019-04-03 17:13:49 INFO  TestBase:29 - Browser opened
+2019-04-03 17:13:50 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:13:50 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="username"]]
+2019-04-03 17:13:50 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="password"]]
+2019-04-03 17:14:55 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:14:55 INFO  Master_DashBoard:109 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:14:55 INFO  Master_DashBoard:109 - Clicked on master id====>>[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:14:56 INFO  Master_DashBoard:109 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:14:57 INFO  Master_DashBoard:109 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (8adb8b0d56233ec358e410d227ab2798)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:14:57 INFO  Master_DashBoard:109 - Verifying Total Number of colums in a table
+2019-04-03 17:14:58 INFO  Master_DashBoard:109 - Verifying Total Number of rows in a table
+2019-04-03 17:14:59 INFO  TestBase:245 - Browser closed
+2019-04-03 17:18:57 INFO  TestBase:29 - Browser opened
+2019-04-03 17:18:58 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:18:58 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="username"]]
+2019-04-03 17:18:58 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="password"]]
+2019-04-03 17:20:03 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:20:03 INFO  Master_DashBoard:109 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:20:03 INFO  Master_DashBoard:109 - Clicked on master id====>>[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:20:03 INFO  Master_DashBoard:109 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:20:05 INFO  Master_DashBoard:109 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (9e48cd5ed1ab72ff0d8d4ebb0340147a)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:20:05 INFO  Master_DashBoard:109 - Verifying Total Number of colums in a table
+2019-04-03 17:20:06 INFO  Master_DashBoard:109 - Verifying Total Number of rows in a table
+2019-04-03 17:20:08 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:20:09 INFO  TestBase:245 - Browser closed
+2019-04-03 17:26:34 INFO  TestBase:29 - Browser opened
+2019-04-03 17:26:34 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:26:35 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="username"]]
+2019-04-03 17:26:35 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="password"]]
+2019-04-03 17:27:42 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:27:42 INFO  Master_DashBoard:111 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:27:42 INFO  Master_DashBoard:111 - Clicked on master id====>>[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:27:43 INFO  Master_DashBoard:111 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:27:44 INFO  Master_DashBoard:111 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (6820b035ea82f5d8ba6986888709b21c)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:27:44 INFO  Master_DashBoard:111 - Verifying Total Number of colums in a table
+2019-04-03 17:27:44 INFO  Master_DashBoard:111 - Verifying Total Number of columns in a table: 16
+2019-04-03 17:27:44 INFO  Master_DashBoard:111 - Verifying Total Number of rows in a table
+2019-04-03 17:27:44 INFO  Master_DashBoard:111 - Verifying Total Number of rows in a table: 55
+2019-04-03 17:27:47 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:27:48 INFO  TestBase:245 - Browser closed
+2019-04-03 17:32:30 INFO  TestBase:29 - Browser opened
+2019-04-03 17:32:31 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:32:31 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="username"]]
+2019-04-03 17:32:31 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="password"]]
+2019-04-03 17:33:36 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:33:36 INFO  Master_DashBoard:95 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:33:36 INFO  Master_DashBoard:95 - Clicked on master id====>>[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:33:37 INFO  Master_DashBoard:95 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:33:39 INFO  Master_DashBoard:95 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (fd29cb8c4f4f35e1d40c082471f5877b)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:33:39 INFO  Master_DashBoard:95 - Verifying Total Number of colums in a table
+2019-04-03 17:33:40 INFO  Master_DashBoard:95 - Total Number of columns count in a table: 16
+2019-04-03 17:33:40 INFO  Master_DashBoard:95 - Verifying Total Number of rows in a table
+2019-04-03 17:33:40 INFO  Master_DashBoard:95 - Total Number of rows count in a table: 55
+2019-04-03 17:33:42 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:33:44 INFO  TestBase:245 - Browser closed
+2019-04-03 17:35:52 INFO  TestBase:29 - Browser opened
+2019-04-03 17:35:53 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:35:53 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="username"]]
+2019-04-03 17:35:53 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="password"]]
+2019-04-03 17:37:02 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:37:02 INFO  Master_DashBoard:92 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:37:02 INFO  Master_DashBoard:92 - Clicked on master id====>>[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:37:02 INFO  Master_DashBoard:92 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:37:03 INFO  Master_DashBoard:92 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (cea03bd8330396a631f00a8b633acbaa)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:37:04 INFO  Master_DashBoard:92 - Total Number of columns count in a table: 16
+2019-04-03 17:37:04 INFO  Master_DashBoard:92 - Total Number of rows count in a table: 55
+2019-04-03 17:37:06 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:37:07 INFO  TestBase:245 - Browser closed
+2019-04-03 17:57:14 INFO  TestBase:29 - Browser opened
+2019-04-03 17:57:15 INFO  TestBase:136 - =========>Started Master-->Admin Module
+2019-04-03 17:57:15 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="username"]]
+2019-04-03 17:57:15 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="password"]]
+2019-04-03 17:58:22 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 17:58:22 INFO  Master_DashBoard:95 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-03 17:58:22 INFO  Master_DashBoard:95 - Clicked on master id====>>[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //span[text()='Masters']]
+2019-04-03 17:58:23 INFO  Master_DashBoard:95 - Clicked on admin id====>>[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="lnk7"]/a] and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="lnk7"]/a]
+2019-04-03 17:58:25 INFO  Master_DashBoard:95 - Clicked on DynamicTripUpload id====>>[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="lnk166"]/a] and object is[[ChromeDriver: chrome on XP (e3d7e646a7947da2ff73e2664277c00c)] -> xpath: //*[@id="lnk166"]/a]
+2019-04-03 17:58:26 INFO  TestBase:136 - =========>Finished Master-->Admin Module
+2019-04-03 17:58:27 INFO  TestBase:245 - Browser closed
+2019-04-03 18:28:30 INFO  TestBase:28 - Browser opened
+2019-04-03 18:28:31 INFO  TestBase:136 - =========>Started Verifying logo
+2019-04-03 18:28:31 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (43e7fd92984bb7d1f1170b38348eb118)] -> xpath: //*[@id="username"]]
+2019-04-03 18:28:31 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (43e7fd92984bb7d1f1170b38348eb118)] -> xpath: //*[@id="password"]]
+2019-04-03 18:29:39 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 18:29:40 INFO  TestBase:245 - Browser closed
+2019-04-03 18:30:42 INFO  TestBase:28 - Browser opened
+2019-04-03 18:30:43 INFO  TestBase:136 - =========>Started Verifying logo
+2019-04-03 18:30:43 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (5a7c721bd8fb4866996d1bcf2394d4df)] -> xpath: //*[@id="username"]]
+2019-04-03 18:30:43 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (5a7c721bd8fb4866996d1bcf2394d4df)] -> xpath: //*[@id="password"]]
+2019-04-03 18:31:57 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-03 18:31:57 INFO  TestBase:136 - Checking logo is present or not
+2019-04-03 18:31:57 INFO  TestBase:136 - =========>Finished Verifying logo
+2019-04-03 18:31:58 INFO  TestBase:245 - Browser closed
+2019-04-04 10:25:57 INFO  TestBase:28 - Browser opened
+2019-04-04 10:25:58 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 10:25:58 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d3adafd66c4ba68fa449c2b9c6109804)] -> xpath: //*[@id="username"]]
+2019-04-04 10:25:58 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d3adafd66c4ba68fa449c2b9c6109804)] -> xpath: //*[@id="password"]]
+2019-04-04 10:27:02 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 10:27:02 INFO  ChangePassword:50 - Performing mouse over on user profile dropdown
+2019-04-04 10:27:02 INFO  ChangePassword:50 - Clicking on Change password from user profile dropdown
+2019-04-04 10:27:02 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 10:27:03 INFO  TestBase:256 - Browser closed
+2019-04-04 10:29:14 INFO  TestBase:28 - Browser opened
+2019-04-04 10:29:15 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 10:29:15 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (6e6e19539d48d09b36904b9bbad13540)] -> xpath: //*[@id="username"]]
+2019-04-04 10:29:15 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (6e6e19539d48d09b36904b9bbad13540)] -> xpath: //*[@id="password"]]
+2019-04-04 10:30:18 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 10:30:18 INFO  ChangePassword:51 - Performing mouse over on user profile dropdown
+2019-04-04 10:30:18 INFO  ChangePassword:51 - Clicking on Change password from user profile dropdown
+2019-04-04 10:30:21 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 10:30:22 INFO  TestBase:256 - Browser closed
+2019-04-04 10:32:54 INFO  TestBase:28 - Browser opened
+2019-04-04 10:32:54 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 10:32:54 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d6156aa87ff5e68e5613427a32f7a7cd)] -> xpath: //*[@id="username"]]
+2019-04-04 10:32:55 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d6156aa87ff5e68e5613427a32f7a7cd)] -> xpath: //*[@id="password"]]
+2019-04-04 10:35:21 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 10:35:21 INFO  ChangePassword:51 - Performing mouse over on user profile dropdown
+2019-04-04 10:35:21 INFO  ChangePassword:51 - Clicking on Change password from user profile dropdown
+2019-04-04 10:35:24 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 10:35:26 INFO  TestBase:256 - Browser closed
+2019-04-04 10:49:24 INFO  TestBase:28 - Browser opened
+2019-04-04 10:49:24 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 10:49:25 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (76da32f3aec9380d31608fa86d0fe9cd)] -> xpath: //*[@id="username"]]
+2019-04-04 10:49:25 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (76da32f3aec9380d31608fa86d0fe9cd)] -> xpath: //*[@id="password"]]
+2019-04-04 10:50:28 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 10:50:28 INFO  ChangePassword:51 - Performing mouse over on user profile dropdown
+2019-04-04 10:50:28 INFO  ChangePassword:51 - Clicking on Change password from user profile dropdown
+2019-04-04 10:50:31 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 10:50:32 INFO  TestBase:256 - Browser closed
+2019-04-04 11:00:38 INFO  TestBase:28 - Browser opened
+2019-04-04 11:00:39 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 11:00:39 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (1ad438891d2f0833495fdd984d8d8be0)] -> xpath: //*[@id="username"]]
+2019-04-04 11:00:39 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (1ad438891d2f0833495fdd984d8d8be0)] -> xpath: //*[@id="password"]]
+2019-04-04 11:01:43 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 11:01:43 INFO  ChangePassword:49 - Performing mouse over on user profile dropdown
+2019-04-04 11:01:43 INFO  ChangePassword:49 - Clicking on Change password from user profile dropdown
+2019-04-04 11:01:46 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 11:01:47 INFO  TestBase:256 - Browser closed
+2019-04-04 11:13:46 INFO  TestBase:29 - Browser opened
+2019-04-04 11:13:47 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 11:13:47 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (267b32d6c2421731477620c2ab03879d)] -> xpath: //*[@id="username"]]
+2019-04-04 11:13:47 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (267b32d6c2421731477620c2ab03879d)] -> xpath: //*[@id="password"]]
+2019-04-04 11:14:50 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 11:14:50 INFO  ChangePassword:59 - Performing mouse over on user profile dropdown
+2019-04-04 11:14:51 INFO  ChangePassword:59 - Clicking on Change password from user profile dropdown
+2019-04-04 11:14:51 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 11:14:52 INFO  TestBase:256 - Browser closed
+2019-04-04 11:16:44 INFO  TestBase:29 - Browser opened
+2019-04-04 11:16:44 INFO  TestBase:136 - =========>Started to click on Change Password option
+2019-04-04 11:16:45 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (9456cb3485008ca44de1004a2ca7b7a5)] -> xpath: //*[@id="username"]]
+2019-04-04 11:16:45 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (9456cb3485008ca44de1004a2ca7b7a5)] -> xpath: //*[@id="password"]]
+2019-04-04 11:17:49 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 11:17:49 INFO  ChangePassword:51 - Performing mouse over on user profile dropdown
+2019-04-04 11:17:49 INFO  ChangePassword:51 - Clicking on Change password from user profile dropdown
+2019-04-04 11:17:49 INFO  TestBase:136 - =========>Clicked on Change password option
+2019-04-04 11:17:51 INFO  TestBase:256 - Browser closed
+2019-04-04 12:06:51 INFO  TestBase:29 - Browser opened
+2019-04-04 12:06:52 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:06:52 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (b030b0128ed4127e6fec184bedb7b2f4)] -> xpath: //*[@id="username"]]
+2019-04-04 12:06:52 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (b030b0128ed4127e6fec184bedb7b2f4)] -> xpath: //*[@id="password"]]
+2019-04-04 12:08:06 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:08:06 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:08:06 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:08:06 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:08:08 INFO  TestBase:265 - Browser closed
+2019-04-04 12:11:15 INFO  TestBase:29 - Browser opened
+2019-04-04 12:11:16 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:11:16 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (9409c7ad25ffcb44f47e2ce5cc8e3a93)] -> xpath: //*[@id="username"]]
+2019-04-04 12:11:16 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (9409c7ad25ffcb44f47e2ce5cc8e3a93)] -> xpath: //*[@id="password"]]
+2019-04-04 12:12:20 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:12:20 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:12:20 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:12:21 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:12:22 INFO  TestBase:265 - Browser closed
+2019-04-04 12:15:21 INFO  TestBase:29 - Browser opened
+2019-04-04 12:16:22 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:16:22 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (93cbfd3419e87ce710b1b11ea6b5ec5b)] -> xpath: //*[@id="username"]]
+2019-04-04 12:16:22 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (93cbfd3419e87ce710b1b11ea6b5ec5b)] -> xpath: //*[@id="password"]]
+2019-04-04 12:17:33 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:17:33 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:17:33 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:17:33 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:17:34 INFO  TestBase:265 - Browser closed
+2019-04-04 12:20:33 INFO  TestBase:29 - Browser opened
+2019-04-04 12:21:34 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:21:35 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (560f2459d8ca4c91387667eed325b9ae)] -> xpath: //*[@id="username"]]
+2019-04-04 12:21:35 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (560f2459d8ca4c91387667eed325b9ae)] -> xpath: //*[@id="password"]]
+2019-04-04 12:22:39 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:22:39 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:22:39 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:22:40 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:22:42 INFO  TestBase:265 - Browser closed
+2019-04-04 12:26:13 INFO  TestBase:29 - Browser opened
+2019-04-04 12:27:14 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:27:14 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (615182186efa658013e3d5812478c1db)] -> xpath: //*[@id="username"]]
+2019-04-04 12:27:14 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (615182186efa658013e3d5812478c1db)] -> xpath: //*[@id="password"]]
+2019-04-04 12:28:20 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:28:20 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:28:20 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:28:20 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:28:25 INFO  TestBase:265 - Browser closed
+2019-04-04 12:30:28 INFO  TestBase:29 - Browser opened
+2019-04-04 12:31:29 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 12:31:29 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (9241ba1e489ae2b80822680792a1f340)] -> xpath: //*[@id="username"]]
+2019-04-04 12:31:29 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (9241ba1e489ae2b80822680792a1f340)] -> xpath: //*[@id="password"]]
+2019-04-04 12:32:33 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 12:32:33 INFO  ChangePassword:74 - Performing mouse over on user profile dropdown
+2019-04-04 12:32:33 INFO  ChangePassword:74 - Clicking on Change password from user profile dropdown
+2019-04-04 12:32:34 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 12:32:38 INFO  TestBase:265 - Browser closed
+2019-04-04 14:31:40 INFO  TestBase:29 - Browser opened
+2019-04-04 14:31:42 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:31:42 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (651d219877ab6ad22947dd922d5cf6b6)] -> xpath: //*[@id="username"]]
+2019-04-04 14:31:42 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (651d219877ab6ad22947dd922d5cf6b6)] -> xpath: //*[@id="password"]]
+2019-04-04 14:33:08 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 14:33:08 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 14:33:08 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 14:33:09 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 14:33:10 INFO  TestBase:268 - Browser closed
+2019-04-04 14:36:43 INFO  TestBase:29 - Browser opened
+2019-04-04 14:37:45 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:37:45 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (2b9aec6c5a7b27f313fc4601f3bf8d5b)] -> xpath: //*[@id="username"]]
+2019-04-04 14:37:45 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (2b9aec6c5a7b27f313fc4601f3bf8d5b)] -> xpath: //*[@id="password"]]
+2019-04-04 14:38:52 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 14:38:52 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 14:38:53 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 14:38:54 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 14:38:59 INFO  TestBase:268 - Browser closed
+2019-04-04 14:41:43 INFO  TestBase:29 - Browser opened
+2019-04-04 14:42:44 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:42:45 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (df60384931e109c2ebe1f8e19223328b)] -> xpath: //*[@id="username"]]
+2019-04-04 14:42:45 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (df60384931e109c2ebe1f8e19223328b)] -> xpath: //*[@id="password"]]
+2019-04-04 14:43:53 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 14:43:53 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 14:43:53 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 14:43:53 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 14:43:58 INFO  TestBase:268 - Browser closed
+2019-04-04 14:46:05 INFO  TestBase:29 - Browser opened
+2019-04-04 14:47:06 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:47:07 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (57fcd299c8c3e54323dca229774d4d03)] -> xpath: //*[@id="username"]]
+2019-04-04 14:47:07 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (57fcd299c8c3e54323dca229774d4d03)] -> xpath: //*[@id="password"]]
+2019-04-04 14:48:14 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 14:48:14 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 14:48:14 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 14:48:14 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 14:48:19 INFO  TestBase:268 - Browser closed
+2019-04-04 14:55:29 INFO  TestBase:29 - Browser opened
+2019-04-04 14:56:30 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:56:30 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (ee834757baa2999c6e2b9a4b919c91bd)] -> xpath: //*[@id="username"]]
+2019-04-04 14:56:31 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (ee834757baa2999c6e2b9a4b919c91bd)] -> xpath: //*[@id="password"]]
+2019-04-04 14:57:38 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 14:57:38 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 14:57:38 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 14:57:38 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 14:57:43 INFO  TestBase:268 - Browser closed
+2019-04-04 14:59:48 INFO  TestBase:29 - Browser opened
+2019-04-04 14:59:49 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 14:59:49 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (e218694d02a2d2a65780f3b9aca13037)] -> xpath: //*[@id="username"]]
+2019-04-04 14:59:49 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (e218694d02a2d2a65780f3b9aca13037)] -> xpath: //*[@id="password"]]
+2019-04-04 15:00:55 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 15:00:55 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 15:00:55 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 15:00:55 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 15:01:00 INFO  TestBase:268 - Browser closed
+2019-04-04 15:06:31 INFO  TestBase:29 - Browser opened
+2019-04-04 15:06:32 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 15:06:32 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (15ac449e2d485fe0b51fb328356e3c86)] -> xpath: //*[@id="username"]]
+2019-04-04 15:06:32 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (15ac449e2d485fe0b51fb328356e3c86)] -> xpath: //*[@id="password"]]
+2019-04-04 15:07:38 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 15:07:38 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 15:07:38 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 15:07:38 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 15:07:47 INFO  TestBase:277 - Browser closed
+2019-04-04 15:14:12 INFO  TestBase:29 - Browser opened
+2019-04-04 15:14:12 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 15:14:13 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (7104fb4e6cc93a26d55acb4f25d0f028)] -> xpath: //*[@id="username"]]
+2019-04-04 15:14:13 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (7104fb4e6cc93a26d55acb4f25d0f028)] -> xpath: //*[@id="password"]]
+2019-04-04 15:15:19 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 15:15:19 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 15:15:19 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 15:15:19 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 15:15:29 INFO  TestBase:262 - Browser closed
+2019-04-04 15:24:25 INFO  TestBase:29 - Browser opened
+2019-04-04 15:24:25 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 15:24:26 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="username"]]
+2019-04-04 15:24:26 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="password"]]
+2019-04-04 15:25:31 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 15:25:31 INFO  ChangePassword:72 - Performing mouse over on user profile dropdown
+2019-04-04 15:25:32 INFO  ChangePassword:72 - Clicking on Change password from user profile dropdown
+2019-04-04 15:25:32 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 15:25:35 INFO  TestBase:231 - Capturing alert message is:Passwords Should not be Empty.!
+2019-04-04 15:25:42 INFO  TestBase:264 - Browser closed
