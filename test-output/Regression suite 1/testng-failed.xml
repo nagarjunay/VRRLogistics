@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]" parallel="classes">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]" parallel="classes">
   <listeners>
     <listener class-name="com.test.automation.VRRLogistics.customListener.Listener"/>
     <listener class-name="com.test.automation.VRRLogistics.customListener.RetryListener"/>
   </listeners>
-  <test thread-count="3" name="LoginPage(failed)" parallel="classes">
+  <test thread-count="1" name="Test(failed)" parallel="classes">
     <classes>
+      <class name="com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo">
+        <methods>
+          <include name="verifyLogo"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo -->
       <class name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin">
         <methods>
           <include name="setUp"/>
@@ -16,6 +25,33 @@
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin -->
+      <class name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLogo" invocation-numbers="0 0 0 0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword -->
+      <class name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLogin"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC002_MasterOption -->
+      <class name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.VRRLogistics.dashboard.TC003_UserProfile -->
     </classes>
-  </test> <!-- LoginPage(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Regression suite 1] -->

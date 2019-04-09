@@ -3,7 +3,10 @@ package com.test.automation.VRRLogistics.uiActions;
 import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -61,10 +64,30 @@ public class ChangePassword extends TestBase {
 	public void changepassword_validation() throws Exception {
 		
 		CurrentPassword.sendKeys("");
+		log("Entered Current Password is====>>" + CurrentPassword);
+		test.log(LogStatus.INFO, "Entered Current Password is====>>" + CurrentPassword);
 		NewPassword.sendKeys("");
+		log("Entered New Password is====>>" + NewPassword);
+		test.log(LogStatus.INFO, "Entered New Password is====>>" + NewPassword);
 		ConfirmPassword.sendKeys("");
-		ChangeButton.click();
-		handling_alert_popup();
+		log("Entered Confirm Password is====>>" + ConfirmPassword);
+		test.log(LogStatus.INFO, "Entered Confirm Password is====>>" + ConfirmPassword);
+		try {
+			ChangeButton.click();
+			log("Clicked on Change Button ====>>" + ChangeButton);
+			test.log(LogStatus.INFO, "Clicked on Change Button ====>>" + ChangeButton);
+		} catch (UnhandledAlertException f) {
+		    try {
+		        Alert alert = driver.switchTo().alert();
+		        String alertText = alert.getText();
+		        System.out.println();
+		        log("Alert data: " + alertText);
+		        test.log(LogStatus.INFO, "Alert data: " + alertText);
+		        alert.accept();
+		    } catch (NoAlertPresentException e) {
+		        e.printStackTrace();
+		    }
+		}
 		
 	}
 

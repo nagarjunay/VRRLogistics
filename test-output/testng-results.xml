@@ -1,61 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
     <line>
-      <![CDATA[=========>Started to click on Change Password option]]>
+      <![CDATA[=========>Started verify login]]>
     </line>
     <line>
-      <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="username"]]]]>
+      <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
     </line>
     <line>
-      <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="password"]]]]>
+      <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
     </line>
     <line>
-      <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button']]>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
     </line>
     <line>
-      <![CDATA[Performing mouse over on user profile dropdown]]>
+      <![CDATA[=========>Finished verify login]]>
     </line>
     <line>
-      <![CDATA[Clicking on Change password from user profile dropdown]]>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_42.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_42.png' height='100' width='100'/></a>]]>
     </line>
     <line>
-      <![CDATA[=========>Clicked on Change password option]]>
+      <![CDATA[=========>Started verify login]]>
     </line>
     <line>
-      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-04_04_2019_03_25_40.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-04_04_2019_03_25_40.png' height='100' width='100'/></a>]]>
+      <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_43.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_43.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_44.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_44.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_06.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_06.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_28.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_28.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_50.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_50.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Started verify login]]>
+    </line>
+    <line>
+      <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+    </line>
+    <line>
+      <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_28_12.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_28_12.png' height='100' width='100'/></a>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105180" started-at="2019-04-04T09:53:57Z" finished-at="2019-04-04T09:55:42Z">
+  <suite name="Default suite" duration-ms="118798" started-at="2019-04-09T08:56:15Z" finished-at="2019-04-09T08:58:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105180" started-at="2019-04-04T09:53:57Z" finished-at="2019-04-04T09:55:42Z">
-      <class name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f]" name="setUp" is-config="true" duration-ms="28005" started-at="2019-04-04T09:53:57Z" finished-at="2019-04-04T09:54:25Z">
+    <test name="Default test" duration-ms="118798" started-at="2019-04-09T08:56:15Z" finished-at="2019-04-09T08:58:13Z">
+      <class name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="setUp" is-config="true" duration-ms="25888" started-at="2019-04-09T08:56:15Z" finished-at="2019-04-09T08:56:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-04-04T09:54:25Z" finished-at="2019-04-04T09:54:25Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-04-09T08:56:41Z" finished-at="2019-04-09T08:56:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword.verifyLogo(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="verifyLogo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f]" name="verifyLogo" duration-ms="74956" started-at="2019-04-04T09:54:25Z" data-provider="getDataFromExcel" finished-at="2019-04-04T09:55:40Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="705" started-at="2019-04-09T08:56:41Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:56:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[vrradmin]]>
+                <![CDATA[Demo]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[vrr123]]>
+                <![CDATA[]]>
               </value>
             </param>
             <param index="2">
@@ -66,47 +168,407 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[=========>Started to click on Change Password option]]>
+              <![CDATA[=========>Started verify login]]>
             </line>
             <line>
-              <![CDATA[Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="username"]]]]>
+              <![CDATA[Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
             </line>
             <line>
-              <![CDATA[Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (c9f168e627cf1607a20b9919ff2fc781)] -> xpath: //*[@id="password"]]]]>
+              <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
             </line>
             <line>
-              <![CDATA[Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button']]>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
             </line>
             <line>
-              <![CDATA[Performing mouse over on user profile dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Change password from user profile dropdown]]>
-            </line>
-            <line>
-              <![CDATA[=========>Clicked on Change password option]]>
+              <![CDATA[=========>Finished verify login]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f]" name="afterMethod" is-config="true" duration-ms="397" started-at="2019-04-04T09:55:40Z" finished-at="2019-04-04T09:55:41Z">
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="350" started-at="2019-04-09T08:56:42Z" finished-at="2019-04-09T08:56:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=TC005_ChangePassword.verifyLogo(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f] output==========>Started to click on Change Password option]]]>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-04_04_2019_03_25_40.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-04_04_2019_03_25_40.png' height='100' width='100'/></a>]]>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_42.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_42.png' height='100' width='100'/></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword@87f383f]" name="endTest" is-config="true" duration-ms="1034" started-at="2019-04-04T09:55:41Z" finished-at="2019-04-04T09:55:42Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="320" started-at="2019-04-09T08:56:42Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-09T08:56:42Z" finished-at="2019-04-09T08:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="556" started-at="2019-04-09T08:56:43Z" finished-at="2019-04-09T08:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_43.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_43.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-09T08:56:43Z" finished-at="2019-04-09T08:56:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="400" started-at="2019-04-09T08:56:43Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Info@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="395" started-at="2019-04-09T08:56:44Z" finished-at="2019-04-09T08:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_44.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_26_44.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="21718" started-at="2019-04-09T08:56:44Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helloo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ift]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>ift and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-09T08:56:44Z" finished-at="2019-04-09T08:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="433" started-at="2019-04-09T08:57:06Z" finished-at="2019-04-09T08:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_06.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_06.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-09T08:57:06Z" finished-at="2019-04-09T08:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="22091" started-at="2019-04-09T08:57:06Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:57:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fp-ifttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="342" started-at="2019-04-09T08:57:28Z" finished-at="2019-04-09T08:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_28.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_28.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-04-09T08:57:29Z" finished-at="2019-04-09T08:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="21564" started-at="2019-04-09T08:57:29Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffffg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fffff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="409" started-at="2019-04-09T08:57:50Z" finished-at="2019-04-09T08:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_50.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_27_50.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="verifyLogin" duration-ms="21496" started-at="2019-04-09T08:57:51Z" data-provider="getDataFromExcel" finished-at="2019-04-09T08:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fp-ifttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iftt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Started verify login]]>
+            </line>
+            <line>
+              <![CDATA[Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]]]>
+            </line>
+            <line>
+              <![CDATA[Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-04-09T08:57:51Z" finished-at="2019-04-09T08:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="afterMethod" is-config="true" duration-ms="353" started-at="2019-04-09T08:58:12Z" finished-at="2019-04-09T08:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC001_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191] output==========>Started verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_28_12.png'><img src='C:\src\main\java\com\test\automation\VRRLogistics\screenshot\Screenshot-09_04_2019_02_28_12.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191]" name="endTest" is-config="true" duration-ms="1042" started-at="2019-04-09T08:58:12Z" finished-at="2019-04-09T08:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword -->
+      </class> <!-- com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

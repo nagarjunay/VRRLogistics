@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="Regression suite 1" verbose="2" preserve-order="true"
-	parallel="classes" thread-count="3">
+<suite name="Regression suite 1"  preserve-order="true"
+	parallel="classes" thread-count="1">
 	<listeners>
 		<listener
 			class-name="com.test.automation.VRRLogistics.customListener.Listener"></listener>
@@ -11,10 +11,20 @@
 			class-name="com.test.automation.VRRLogistics.customListener.RetryListener"></listener>
 
 	</listeners>
-	<test name="LoginPage">
+	<test name="Test">
 		<classes>
 			<class
 				name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin" />
+			<class
+				name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo" />
 		</classes>
 	</test>
+	
+	
 </suite>

@@ -21,7 +21,7 @@ public class TC001_Verifylogin extends TestBase {
 
 	@DataProvider
 	public Object[][] getDataFromExcel() throws Exception {
-		Object[][] data = Excel_Reader.read_excel("LoginTestData");// sheet name
+		Object[][] data = Excel_Reader.read_excel("LoginData");// sheet name
 		return data;
 	}
 
@@ -39,7 +39,7 @@ public class TC001_Verifylogin extends TestBase {
 		log("=========>Started verify login");
 		loginpage = new LoginPage(driver);
 		loginpage.loginToApplication(loginid, password);
-		Assert.assertEquals(true, loginpage.getLoginSuccess());
+		Assert.assertEquals(false, loginpage.getLoginSuccess());
 		log("=========>Finished verify login");
 	}
 

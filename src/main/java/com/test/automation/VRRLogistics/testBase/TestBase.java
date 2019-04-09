@@ -17,12 +17,15 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
@@ -81,11 +84,14 @@ public class TestBase {
 	 * This Method will select the different browsers as mentioned in config
 	 * properties file
 	 */
+	@SuppressWarnings("deprecation")
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			log.info("creating object of" + browser);
-			driver = new ChromeDriver();
+			DesiredCapabilities dc = new DesiredCapabilities();
+			dc.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
+			driver = new ChromeDriver(dc);
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
 			log.info("creating object of" + browser);
@@ -221,22 +227,21 @@ public class TestBase {
 		}
 	}
 
-	/*This method is used for handling Alert/pop-up */ 
+	/*This method is used for handling Alert/pop-up  
 	public static void handling_alert_popup() throws Exception {
+		
 		Alert alert = driver.switchTo().alert();
 
 		// Capturing alert message
 		String alertMessage = driver.switchTo().alert().getText();
 
 		// Displaying alert message
-		System.out.println(alertMessage);
 		test.log(LogStatus.INFO, "Captured alert message is: " + alertMessage);
 		log.info("Captured alert message is: " + alertMessage);
 		Thread.sleep(5000);
-
-		// Accepting alert
+        // Accepting alert
 		alert.accept();
-	}
+	}*/
 
 	/* This method is used for handling frames */
 	public static void handling_frame(int index_number) {

@@ -16,7 +16,7 @@ public class LoginPage extends TestBase {
 
 	public static final Logger log = Logger.getLogger(LoginPage.class.getName());
 
-	public static WebDriver driver;
+	WebDriver driver;
 
 	@FindBy(xpath = "//*[@id=\"username\"]")
 	WebElement loginId;
@@ -37,6 +37,7 @@ public class LoginPage extends TestBase {
 	WebElement Errormessage2;
 
 	public LoginPage(WebDriver driver) {
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 

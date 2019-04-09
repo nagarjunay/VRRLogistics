@@ -1601,3 +1601,347 @@
 2019-04-04 15:25:32 INFO  TestBase:137 - =========>Clicked on Change password option
 2019-04-04 15:25:35 INFO  TestBase:231 - Capturing alert message is:Passwords Should not be Empty.!
 2019-04-04 15:25:42 INFO  TestBase:264 - Browser closed
+2019-04-04 16:01:31 INFO  TestBase:29 - Browser opened
+2019-04-04 16:01:32 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:01:32 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:01:33 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the1time(s).
+2019-04-04 16:01:33 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:01:33 INFO  TestBase:268 - Browser closed
+2019-04-04 16:01:34 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the2time(s).
+2019-04-04 16:01:34 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:01:34 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the3time(s).
+2019-04-04 16:01:34 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:01:34 INFO  TestBase:268 - Browser closed
+2019-04-04 16:01:34 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:01:34 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:01:34 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:01:37 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:01:37 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:01:38 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:02:01 INFO  TestBase:31 - Browser opened
+2019-04-04 16:02:02 INFO  TestBase:28 - Browser opened
+2019-04-04 16:02:02 INFO  TestBase:29 - Browser opened
+2019-04-04 16:02:02 INFO  TestBase:137 - =========>Started User Profile Dropdown
+2019-04-04 16:02:02 INFO  TestBase:137 - =========>Started Verifying logo
+2019-04-04 16:02:02 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:02:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="username"]]
+2019-04-04 16:02:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="username"]]
+2019-04-04 16:02:02 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="username"]]
+2019-04-04 16:02:02 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="password"]]
+2019-04-04 16:02:02 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="password"]]
+2019-04-04 16:02:03 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: //*[@id="password"]]
+2019-04-04 16:02:24 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the1time(s).
+2019-04-04 16:02:24 INFO  TestBase:137 - =========>Started User Profile Dropdown
+2019-04-04 16:02:24 INFO  LoginPage:81 - Clicked on submit button is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-04 16:02:24 INFO  TestBase:137 - Checking logo is present or not
+2019-04-04 16:03:24 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the1time(s).
+2019-04-04 16:03:24 INFO  TestBase:137 - =========>Started Verifying logo
+2019-04-04 16:03:24 INFO  LoginPage:81 - Clicked on submit button is[[ChromeDriver: chrome on XP (befa8e4d7fe32cb396f5b1e054bf71fb)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-04 16:03:51 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the1time(s).
+2019-04-04 16:03:51 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the2time(s).
+2019-04-04 16:03:51 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started Verifying logo
+2019-04-04 16:03:52 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the2time(s).
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started User Profile Dropdown
+2019-04-04 16:03:52 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the2time(s).
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:03:52 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the3time(s).
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started Verifying logo
+2019-04-04 16:03:52 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the3time(s).
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started User Profile Dropdown
+2019-04-04 16:03:52 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the3time(s).
+2019-04-04 16:03:52 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:03:53 INFO  TestBase:268 - Browser closed
+2019-04-04 16:03:53 INFO  TestBase:268 - Browser closed
+2019-04-04 16:03:53 INFO  TestBase:268 - Browser closed
+2019-04-04 16:04:35 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:04:36 INFO  TestBase:268 - Browser closed
+2019-04-04 16:04:37 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:04:39 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:05:03 INFO  TestBase:29 - Browser opened
+2019-04-04 16:05:03 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:05:03 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (4bdffa53f0512699bbe0196a4d5d7d0f)] -> xpath: //*[@id="username"]]
+2019-04-04 16:05:03 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (4bdffa53f0512699bbe0196a4d5d7d0f)] -> xpath: //*[@id="password"]]
+2019-04-04 16:06:09 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 16:06:09 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 16:06:09 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 16:06:10 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 16:06:13 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the1time(s).
+2019-04-04 16:06:13 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:06:13 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the2time(s).
+2019-04-04 16:06:13 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:06:13 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the3time(s).
+2019-04-04 16:06:13 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:06:14 INFO  TestBase:268 - Browser closed
+2019-04-04 16:06:14 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:06:16 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:06:39 INFO  TestBase:29 - Browser opened
+2019-04-04 16:06:39 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:06:39 INFO  LoginPage:81 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: //*[@id="username"]]
+2019-04-04 16:06:39 INFO  LoginPage:81 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: //*[@id="password"]]
+2019-04-04 16:07:43 INFO  LoginPage:81 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 16:07:43 INFO  Master_DashBoard:93 - Clicked on hamburger icon id====>>[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div] and object is[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: /html/body/div[4]/div[1]/ul/li[1]/div]
+2019-04-04 16:07:43 INFO  Master_DashBoard:93 - Clicked on master id====>>[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: //span[text()='Masters']] and object is[[ChromeDriver: chrome on XP (5bfa9a51d8807dcdbf48f1a1675dd8bd)] -> xpath: //span[text()='Masters']]
+2019-04-04 16:07:43 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the1time(s).
+2019-04-04 16:07:43 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:08:43 INFO  Retry:39 - Retrying testverifyLoginwith status nullfor the2time(s).
+2019-04-04 16:08:43 INFO  TestBase:137 - =========>Started Master-->Admin Module
+2019-04-04 16:13:00 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:13:02 INFO  TestBase:268 - Browser closed
+2019-04-04 16:13:02 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:13:04 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:14:08 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:14:10 INFO  TestBase:268 - Browser closed
+2019-04-04 16:15:24 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:15:26 INFO  TestBase:268 - Browser closed
+2019-04-04 16:16:51 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:16:53 INFO  TestBase:268 - Browser closed
+2019-04-04 16:16:53 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:16:55 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:17:07 INFO  TestBase:29 - Browser opened
+2019-04-04 16:17:07 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:17:07 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the1time(s).
+2019-04-04 16:17:07 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:17:07 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the2time(s).
+2019-04-04 16:17:07 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:17:08 INFO  Retry:39 - Retrying testverifyLogowith status nullfor the3time(s).
+2019-04-04 16:17:08 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 16:17:08 INFO  TestBase:268 - Browser closed
+2019-04-04 16:17:08 INFO  TestBase:87 - creating object ofchrome
+2019-04-04 16:17:10 INFO  TestBase:104 - navigating tohttp://vrr.infotracktelematics.com/itlfmsv12/
+2019-04-04 16:17:12 INFO  TestBase:268 - Browser closed
+2019-04-04 16:17:12 INFO  TestBase:268 - Browser closed
+2019-04-04 16:17:12 INFO  TestBase:268 - Browser closed
+2019-04-04 16:59:18 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 16:59:20 INFO  TestBase:268 - Browser closed
+2019-04-04 17:01:23 INFO  TestBase:29 - Browser opened
+2019-04-04 17:01:24 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:01:24 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (000ee67dcc82990c860c9f30683c7fea)] -> xpath: //*[@id="username"]]
+2019-04-04 17:01:24 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (000ee67dcc82990c860c9f30683c7fea)] -> xpath: //*[@id="password"]]
+2019-04-04 17:02:27 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:02:27 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:02:27 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:02:28 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:02:32 INFO  TestBase:268 - Browser closed
+2019-04-04 17:05:04 INFO  TestBase:29 - Browser opened
+2019-04-04 17:05:05 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:05:05 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (545b1ed50c2f087dcffa9c5bf1042514)] -> xpath: //*[@id="username"]]
+2019-04-04 17:05:05 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (545b1ed50c2f087dcffa9c5bf1042514)] -> xpath: //*[@id="password"]]
+2019-04-04 17:06:09 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:06:09 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:06:09 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:06:09 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:06:13 INFO  TestBase:268 - Browser closed
+2019-04-04 17:07:59 INFO  TestBase:29 - Browser opened
+2019-04-04 17:08:00 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:08:00 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (f8475f269fd5bf06bc939996e400d281)] -> xpath: //*[@id="username"]]
+2019-04-04 17:08:00 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (f8475f269fd5bf06bc939996e400d281)] -> xpath: //*[@id="password"]]
+2019-04-04 17:09:09 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:09:09 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:09:10 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:09:10 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:09:14 INFO  TestBase:268 - Browser closed
+2019-04-04 17:14:25 INFO  TestBase:29 - Browser opened
+2019-04-04 17:14:25 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:14:26 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (3da977fbf5ca7ee0de5989cc4c6b914f)] -> xpath: //*[@id="username"]]
+2019-04-04 17:14:26 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (3da977fbf5ca7ee0de5989cc4c6b914f)] -> xpath: //*[@id="password"]]
+2019-04-04 17:15:29 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:15:29 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:15:29 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:15:29 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:15:34 INFO  TestBase:267 - Browser closed
+2019-04-04 17:19:50 INFO  TestBase:29 - Browser opened
+2019-04-04 17:19:51 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:19:51 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (2b4dd8e0586bf0fe3e36fadd4b674fd5)] -> xpath: //*[@id="username"]]
+2019-04-04 17:19:52 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (2b4dd8e0586bf0fe3e36fadd4b674fd5)] -> xpath: //*[@id="password"]]
+2019-04-04 17:20:55 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:20:55 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:20:55 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:20:55 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:20:59 INFO  TestBase:267 - Browser closed
+2019-04-04 17:26:45 INFO  TestBase:29 - Browser opened
+2019-04-04 17:26:46 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:26:46 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (7ee625fb73e0ca45f05a222416f7de9c)] -> xpath: //*[@id="username"]]
+2019-04-04 17:26:46 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (7ee625fb73e0ca45f05a222416f7de9c)] -> xpath: //*[@id="password"]]
+2019-04-04 17:27:50 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:27:50 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-04 17:27:50 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-04 17:27:51 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:27:55 INFO  TestBase:267 - Browser closed
+2019-04-04 17:31:52 INFO  TestBase:29 - Browser opened
+2019-04-04 17:31:52 INFO  TestBase:138 - =========>Started to click on Change Password option
+2019-04-04 17:31:52 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (671f35a596a8e7dbdbd7271d291c4118)] -> xpath: //*[@id="username"]]
+2019-04-04 17:31:53 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (671f35a596a8e7dbdbd7271d291c4118)] -> xpath: //*[@id="password"]]
+2019-04-04 17:32:56 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:32:56 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:32:56 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:32:57 INFO  TestBase:138 - =========>Clicked on Change password option
+2019-04-04 17:33:01 INFO  TestBase:283 - Browser closed
+2019-04-04 17:40:55 INFO  TestBase:29 - Browser opened
+2019-04-04 17:40:56 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:40:56 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (d8642211702ffea4742aaafc52fa0407)] -> xpath: //*[@id="username"]]
+2019-04-04 17:40:56 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (d8642211702ffea4742aaafc52fa0407)] -> xpath: //*[@id="password"]]
+2019-04-04 17:41:59 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:41:59 INFO  ChangePassword:76 - Performing mouse over on user profile dropdown
+2019-04-04 17:41:59 INFO  ChangePassword:76 - Clicking on Change password from user profile dropdown
+2019-04-04 17:42:00 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:42:04 INFO  TestBase:267 - Browser closed
+2019-04-04 17:43:26 INFO  TestBase:29 - Browser opened
+2019-04-04 17:43:27 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-04 17:43:27 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (83741da62e455688a9dd9e1d5ba223c9)] -> xpath: //*[@id="username"]]
+2019-04-04 17:43:27 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (83741da62e455688a9dd9e1d5ba223c9)] -> xpath: //*[@id="password"]]
+2019-04-04 17:44:30 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:44:30 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-04 17:44:30 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-04 17:44:30 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-04 17:44:35 INFO  TestBase:267 - Browser closed
+2019-04-04 17:54:35 INFO  TestBase:29 - Browser opened
+2019-04-04 17:54:35 INFO  TestBase:138 - =========>Started to click on Change Password option
+2019-04-04 17:54:36 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (187b0f5c6343af6365bd997c6a009a01)] -> xpath: //*[@id="username"]]
+2019-04-04 17:54:36 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (187b0f5c6343af6365bd997c6a009a01)] -> xpath: //*[@id="password"]]
+2019-04-04 17:55:39 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-04 17:55:39 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-04 17:55:39 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-04 17:55:40 INFO  TestBase:138 - =========>Clicked on Change password option
+2019-04-04 17:55:44 INFO  TestBase:278 - Browser closed
+2019-04-04 17:56:45 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-04 17:56:46 INFO  TestBase:267 - Browser closed
+2019-04-09 10:23:01 INFO  TestBase:29 - Browser opened
+2019-04-09 10:23:02 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-09 10:23:02 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (234d8155ead12dd7b74300006aee993b)] -> xpath: //*[@id="username"]]
+2019-04-09 10:23:02 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (234d8155ead12dd7b74300006aee993b)] -> xpath: //*[@id="password"]]
+2019-04-09 10:24:19 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 10:24:19 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-09 10:24:20 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-09 10:24:20 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-09 10:24:24 INFO  TestBase:267 - Browser closed
+2019-04-09 10:38:52 INFO  TestBase:29 - Browser opened
+2019-04-09 10:38:53 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-09 10:38:53 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (6ed0940ce20a27300d2f0d483cfc174b)] -> xpath: //*[@id="username"]]
+2019-04-09 10:38:53 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (6ed0940ce20a27300d2f0d483cfc174b)] -> xpath: //*[@id="password"]]
+2019-04-09 10:39:56 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 10:39:56 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-09 10:39:56 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-09 10:39:57 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-09 10:40:01 INFO  TestBase:267 - Browser closed
+2019-04-09 10:45:23 INFO  TestBase:29 - Browser opened
+2019-04-09 10:45:24 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-09 10:45:24 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (38c866bc67c58d395e621429513b2ada)] -> xpath: //*[@id="username"]]
+2019-04-09 10:45:24 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (38c866bc67c58d395e621429513b2ada)] -> xpath: //*[@id="password"]]
+2019-04-09 10:46:27 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 10:46:27 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-09 10:46:27 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-09 10:46:27 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-09 10:46:31 INFO  TestBase:267 - Browser closed
+2019-04-09 11:06:28 INFO  TestBase:29 - Browser opened
+2019-04-09 11:06:29 INFO  TestBase:137 - =========>Started to click on Change Password option
+2019-04-09 11:06:29 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (5aeb37618e5e50e17efeae0620ae1d97)] -> xpath: //*[@id="username"]]
+2019-04-09 11:06:29 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (5aeb37618e5e50e17efeae0620ae1d97)] -> xpath: //*[@id="password"]]
+2019-04-09 11:07:33 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 11:07:33 INFO  ChangePassword:77 - Performing mouse over on user profile dropdown
+2019-04-09 11:07:33 INFO  ChangePassword:77 - Clicking on Change password from user profile dropdown
+2019-04-09 11:07:33 INFO  TestBase:137 - =========>Clicked on Change password option
+2019-04-09 11:07:38 INFO  TestBase:267 - Browser closed
+2019-04-09 11:41:52 INFO  TestBase:29 - Browser opened
+2019-04-09 11:41:53 INFO  TestBase:144 - =========>Started to click on Change Password option
+2019-04-09 11:41:53 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (0f27562fd0404aaf006927ce40e182da)] -> xpath: //*[@id="username"]]
+2019-04-09 11:41:53 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (0f27562fd0404aaf006927ce40e182da)] -> xpath: //*[@id="password"]]
+2019-04-09 11:42:58 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 11:42:58 INFO  ChangePassword:89 - Performing mouse over on user profile dropdown
+2019-04-09 11:42:58 INFO  ChangePassword:89 - Clicking on Change password from user profile dropdown
+2019-04-09 11:42:58 INFO  TestBase:144 - =========>Clicked on Change password option
+2019-04-09 11:43:03 INFO  TestBase:274 - Browser closed
+2019-04-09 11:50:24 INFO  TestBase:29 - Browser opened
+2019-04-09 11:50:25 INFO  TestBase:144 - =========>Started to click on Change Password option
+2019-04-09 11:50:25 INFO  LoginPage:82 - Entered login id====>>vrradmin and object is[[ChromeDriver: chrome on XP (c36d869e5272ed3b87aab9e3b625a3a3)] -> xpath: //*[@id="username"]]
+2019-04-09 11:50:25 INFO  LoginPage:82 - Entered password====>>vrr123 and object is[[ChromeDriver: chrome on XP (c36d869e5272ed3b87aab9e3b625a3a3)] -> xpath: //*[@id="password"]]
+2019-04-09 11:51:32 INFO  LoginPage:82 - Clicked on submit button isProxy element for: DefaultElementLocator 'By.xpath: /html/body/div[2]/form[1]/div[6]/button'
+2019-04-09 11:51:32 INFO  ChangePassword:95 - Performing mouse over on user profile dropdown
+2019-04-09 11:51:32 INFO  ChangePassword:95 - Clicking on Change password from user profile dropdown
+2019-04-09 11:51:32 INFO  TestBase:144 - =========>Clicked on Change password option
+2019-04-09 11:51:36 INFO  ChangePassword:95 - Entered Current Password is====>>[[ChromeDriver: chrome on XP (c36d869e5272ed3b87aab9e3b625a3a3)] -> xpath: //div[@class='input-group']/input[@id='currentpassword']]
+2019-04-09 11:51:36 INFO  ChangePassword:95 - Entered New Password is====>>[[ChromeDriver: chrome on XP (c36d869e5272ed3b87aab9e3b625a3a3)] -> xpath: //div[@class='input-group']/input[@id='newpassword']]
+2019-04-09 11:51:36 INFO  ChangePassword:95 - Entered Confirm Password is====>>[[ChromeDriver: chrome on XP (c36d869e5272ed3b87aab9e3b625a3a3)] -> xpath: //div[@class='input-group']/input[@id='confirmpassword']]
+2019-04-09 11:51:36 INFO  ChangePassword:95 - Alert data: Passwords Should not be Empty.!
+2019-04-09 11:51:37 INFO  TestBase:274 - Browser closed
+2019-04-09 14:07:08 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:07:10 INFO  TestBase:273 - Browser closed
+2019-04-09 14:10:19 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:10:21 INFO  TestBase:273 - Browser closed
+2019-04-09 14:11:12 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:11:14 INFO  TestBase:273 - Browser closed
+2019-04-09 14:12:44 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:12:45 INFO  TestBase:273 - Browser closed
+2019-04-09 14:14:45 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:14:47 INFO  TestBase:273 - Browser closed
+2019-04-09 14:17:09 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:17:10 INFO  TestBase:273 - Browser closed
+2019-04-09 14:19:17 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:19:18 INFO  TestBase:273 - Browser closed
+2019-04-09 14:23:23 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:23:24 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:23:24 INFO  LoginPage:82 - Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:23:24 INFO  LoginPage:82 - Entered password====>> and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:23:24 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:23:25 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:23:25 INFO  LoginPage:82 - Entered login id====>> and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:23:25 INFO  LoginPage:82 - Entered password====>> and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:23:25 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:23:26 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:23:26 INFO  LoginPage:82 - Entered login id====>> and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:23:26 INFO  LoginPage:82 - Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:23:26 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:23:26 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:23:27 INFO  LoginPage:82 - Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:23:27 INFO  LoginPage:82 - Entered password====>>ift and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:23:48 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:23:48 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:23:48 INFO  LoginPage:82 - Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:23:49 INFO  LoginPage:82 - Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:24:10 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:24:10 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:24:10 INFO  LoginPage:82 - Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:24:10 INFO  LoginPage:82 - Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:24:32 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:24:32 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:24:32 INFO  LoginPage:82 - Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="username"]]
+2019-04-09 14:24:32 INFO  LoginPage:82 - Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: //*[@id="password"]]
+2019-04-09 14:24:54 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (76c56f96fc830f6798ae069c9afefdb5)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:24:55 INFO  TestBase:273 - Browser closed
+2019-04-09 14:26:41 INFO  TC001_Verifylogin:31 - Browser opened
+2019-04-09 14:26:41 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:26:41 INFO  LoginPage:82 - Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:26:42 INFO  LoginPage:82 - Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:26:42 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:26:42 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:26:42 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:26:42 INFO  LoginPage:82 - Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:26:43 INFO  LoginPage:82 - Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:26:43 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:26:43 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:26:43 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:26:43 INFO  LoginPage:82 - Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:26:43 INFO  LoginPage:82 - Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:26:44 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:26:44 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:26:44 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:26:44 INFO  LoginPage:82 - Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:26:44 INFO  LoginPage:82 - Entered password====>>ift and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:27:06 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:27:06 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:27:06 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:27:07 INFO  LoginPage:82 - Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:27:07 INFO  LoginPage:82 - Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:27:28 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:27:28 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:27:29 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:27:29 INFO  LoginPage:82 - Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:27:29 INFO  LoginPage:82 - Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:27:50 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:27:50 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:27:51 INFO  TestBase:143 - =========>Started verify login
+2019-04-09 14:27:51 INFO  LoginPage:82 - Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]
+2019-04-09 14:27:51 INFO  LoginPage:82 - Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]
+2019-04-09 14:28:12 INFO  LoginPage:82 - Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]
+2019-04-09 14:28:12 INFO  TestBase:143 - =========>Finished verify login
+2019-04-09 14:28:13 INFO  TestBase:273 - Browser closed
