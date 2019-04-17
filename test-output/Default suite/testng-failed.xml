@@ -8,7 +8,7 @@
           <include name="setUp"/>
           <include name="endTest"/>
           <include name="afterMethod"/>
-          <include name="verifyLogin" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="verifyLogin"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin -->

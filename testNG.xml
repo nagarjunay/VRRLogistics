@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 
-<suite name="Regression suite 1"  preserve-order="true"
-	parallel="classes" thread-count="1">
+<suite name="Regression suite 1" preserve-order="true"
+	parallel="methods" group-by-instances="true">
 	<listeners>
 		<listener
 			class-name="com.test.automation.VRRLogistics.customListener.Listener"></listener>
@@ -11,7 +11,10 @@
 			class-name="com.test.automation.VRRLogistics.customListener.RetryListener"></listener>
 
 	</listeners>
+	<!-- -->
+
 	<test name="Test">
+		<parameter name="Browser_Name" value="chrome"></parameter>
 		<classes>
 			<class
 				name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin" />
@@ -25,6 +28,39 @@
 				name="com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo" />
 		</classes>
 	</test>
-	
-	
+
+	<test name="Test1">
+		<parameter name="Browser_Name" value="firefox"></parameter>
+		<classes>
+			<class
+				name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin" />
+			<class
+				name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<parameter name="Browser_Name" value="IE"></parameter>
+		<classes>
+			<class
+				name="com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin" />
+			<class
+				name="com.test.automation.VRRLogistics.loginpage.TC005_ChangePassword" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC002_MasterOption" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC003_UserProfile" />
+			<class
+				name="com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo" />
+		</classes>
+	</test>
+
+
+
 </suite>

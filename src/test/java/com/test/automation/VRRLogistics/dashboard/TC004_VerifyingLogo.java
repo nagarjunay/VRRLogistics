@@ -2,9 +2,11 @@ package com.test.automation.VRRLogistics.dashboard;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.test.automation.VRRLogistics.excelReader.Excel_Reader;
@@ -13,6 +15,8 @@ import com.test.automation.VRRLogistics.uiActions.LoginPage;
 import com.test.automation.VRRLogistics.uiActions.VerifyingLogo;
 
 public class TC004_VerifyingLogo extends TestBase{
+	
+	public static final Logger log = Logger.getLogger(TC004_VerifyingLogo.class.getName());
 	
 	LoginPage loginpage;
 	VerifyingLogo logo;
@@ -23,9 +27,10 @@ public class TC004_VerifyingLogo extends TestBase{
 	}
 
 	@BeforeClass
-	public void setUp() throws IOException {
-		init();
-		log.info("Browser opened");
+	@Parameters("Browser_Name")
+	public void setUp(String Browser_Name) throws IOException {
+		init(Browser_Name);
+		
 	}
 
 	@Test(dataProvider = "getDataFromExcel")

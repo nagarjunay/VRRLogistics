@@ -20,7 +20,7 @@ public class Master_DashBoard extends TestBase {
 
 	WebDriver driver;
 
-	@FindBy(xpath = "/html/body/div[4]/div[1]/ul/li[1]/div")
+	@FindBy(xpath = "//ul[@class='page-sidebar-menu']/li/div[@class='sidebar-toggler hidden-phone']")
 	WebElement hamburger;
 
 	@FindBy(xpath = "//span[text()='Masters']")
@@ -61,12 +61,12 @@ public class Master_DashBoard extends TestBase {
 				"//table[@class='table table-striped table-hover table-coluredheader dataTable']/thead/tr/th[string-length(text()) > 0] "));
 		int colCount = col.size();
 		log("Total Number of columns count in a table: " + colCount);
-		test.log(LogStatus.INFO, "Total Number of columns count in a table" + colCount);
+		test.log(LogStatus.INFO, "Total Number of columns count in a table==>" + colCount);
 
 		List<WebElement> row = driver.findElements(By.xpath("//tbody[@id='lstBody']/tr"));
 		int rowCount = row.size();
 		log("Total Number of rows count in a table: " + rowCount);
-		test.log(LogStatus.INFO, "Total Number of rows count in a table" + rowCount);
+		test.log(LogStatus.INFO, "Total Number of rows count in a table==>" + rowCount);
 
 		String Before_xpath = "//tbody[@id='lstBody']/tr[";
 		String After_xpath = "]/td[3]";

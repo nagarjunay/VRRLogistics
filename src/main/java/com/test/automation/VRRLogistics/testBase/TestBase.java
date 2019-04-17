@@ -33,6 +33,9 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+
+import com.beust.jcommander.Parameter;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -48,9 +51,10 @@ public class TestBase {
 	File file;
 
 	/* This method is to select browser and url from the config file */
-	public void init() throws IOException {
+	@Parameters("Browser_Name")
+	public void init(String Browser_Name) throws IOException {
 		loadData();
-		selectBrowser(OR.getProperty("browser"));
+		selectBrowser(Browser_Name);
 		getUrl(OR.getProperty("url"));
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
@@ -85,20 +89,21 @@ public class TestBase {
 	 * properties file
 	 */
 	@SuppressWarnings("deprecation")
+	@Parameters("Browser_Name")
 	public void selectBrowser(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
-			log.info("creating object of" + browser);
+			log.info("creating object of " + browser);
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 			driver = new ChromeDriver(dc);
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
-			log.info("creating object of" + browser);
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriverr.exe");
+			log.info("creating object of " + browser);
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("IE")) {
-			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServer.exe");
-			log.info("creating object of" + browser);
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir") + "/drivers/IEDriverServerr.exe");
+			log.info("creating object of " + browser);
 			driver = new InternetExplorerDriver();
 
 		}

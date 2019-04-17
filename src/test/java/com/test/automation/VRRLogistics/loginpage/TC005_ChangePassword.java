@@ -3,17 +3,22 @@ package com.test.automation.VRRLogistics.loginpage;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.test.automation.VRRLogistics.dashboard.TC004_VerifyingLogo;
 import com.test.automation.VRRLogistics.excelReader.Excel_Reader;
 import com.test.automation.VRRLogistics.testBase.TestBase;
 import com.test.automation.VRRLogistics.uiActions.ChangePassword;
 import com.test.automation.VRRLogistics.uiActions.LoginPage;
 
 public class TC005_ChangePassword extends TestBase {
+	
+	public static final Logger log = Logger.getLogger(TC005_ChangePassword.class.getName());
 
 	LoginPage loginpage;
 	ChangePassword cp;
@@ -24,14 +29,15 @@ public class TC005_ChangePassword extends TestBase {
 	}
 
 	@BeforeClass
-	public void setUp() throws IOException {
-		init();
-		log.info("Browser opened");
+	@Parameters("Browser_Name")
+	public void setUp(String Browser_Name) throws IOException {
+		init(Browser_Name);
+		
 	}
 
 	@SuppressWarnings("unused")
 	@Test(dataProvider = "getDataFromExcel")
-	public void verifyLogo(String loginid, String password, String runMode) throws Exception 
+	public void changePassword(String loginid, String password, String runMode) throws Exception 
 	{
 		if (runMode.equalsIgnoreCase("n")) {
 			throw new SkipException("User marked this not to run");

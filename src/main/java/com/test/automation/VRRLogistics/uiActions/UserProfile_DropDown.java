@@ -4,8 +4,6 @@ import java.util.ArrayList;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
@@ -21,8 +19,6 @@ public class UserProfile_DropDown extends TestBase
 	public WebDriver driver;
 	
 	
-	@FindBy(xpath = "//*[@id=\"username\"]")
-	WebElement loginId;
 	
 	public UserProfile_DropDown(WebDriver driver) {
 		this.driver = driver;

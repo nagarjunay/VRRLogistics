@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/7</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 09 14:26:15 IST 2019</td>
+<td>Started on:</td><td>Mon Apr 15 17:24:51 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>118 seconds (118798 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (860 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,125 +67,627 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: Demo, , y<br/>
-<a href="#Output-597364637" onClick='toggleBox("Output-597364637", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-597364637" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-597364637">
-=========>Started verify login<br/>
-Entered login id====>>Demo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.setUp()'><b>setUp</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1338841523", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1338841523'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.endTest()'><b>endTest</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.test.automation.VRRLogistics.testBase.TestBase.closeBrowser(TestBase.java:277)
+	at com.test.automation.VRRLogistics.testBase.TestBase.endTest(TestBase.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace243194708", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243194708'><pre>java.lang.NullPointerException
+	at com.test.automation.VRRLogistics.testBase.TestBase.closeBrowser(TestBase.java:277)
+	at com.test.automation.VRRLogistics.testBase.TestBase.endTest(TestBase.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
 <td>0</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: , , y<br/>
-<a href="#Output-544628437" onClick='toggleBox("Output-544628437", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-544628437" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-544628437">
-=========>Started verify login<br/>
-Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
 <td>0</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: , Info@123, y<br/>
-<a href="#Output-1955587357" onClick='toggleBox("Output-1955587357", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1955587357" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1955587357">
-=========>Started verify login<br/>
-Entered login id====>> and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>Info@123 and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
 <td>0</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: helloo, ift, y<br/>
-<a href="#Output-280862192" onClick='toggleBox("Output-280862192", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-280862192" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-280862192">
-=========>Started verify login<br/>
-Entered login id====>>helloo and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>ift and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
-<td>21</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: fp-ifttest, hhh, y<br/>
-<a href="#Output-653553574" onClick='toggleBox("Output-653553574", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-653553574" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-653553574">
-=========>Started verify login<br/>
-Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>hhh and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
-<td>22</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: ffffg, fffff, y<br/>
-<a href="#Output-1824423245" onClick='toggleBox("Output-1824423245", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1824423245" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1824423245">
-=========>Started verify login<br/>
-Entered login id====>>ffffg and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>fffff and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
-<td>21</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 <tr>
-<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin<br>Parameters: fp-ifttest, iftt, y<br/>
-<a href="#Output-2027549979" onClick='toggleBox("Output-2027549979", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2027549979" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2027549979">
-=========>Started verify login<br/>
-Entered login id====>>fp-ifttest and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="username"]]<br/>
-Entered password====>>iftt and object is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: //*[@id="password"]]<br/>
-Clicked on submit button is[[ChromeDriver: chrome on XP (4cb57cdffcc22e2bd0ef972b7a1eae44)] -> xpath: /html/body/div[2]/form[1]/div[6]/button]<br/>
-=========>Finished verify login<br/>
-</div>
-</td>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.beforeMethod()'><b>beforeMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
 <td></td>
-<td>21</td>
-<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@eafc191</td></tr>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.afterMethod()'><b>afterMethod</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1437941060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1437941060'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1944978632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1944978632'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1804379080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1804379080'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace980138431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980138431'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1504642150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1504642150'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1431530910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1431530910'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
+<tr>
+<td title='com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin.verifyLogin()'><b>verifyLogin</b><br>Test class: com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1646464088", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1646464088'><pre>org.testng.TestNGException: 
+Parameter &apos;Browser_Name&apos; is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\nagarjuna\AppData\Local\Temp\testng-eclipse-1187926109\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:290)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.automation.VRRLogistics.loginpage.TC001_Verifylogin@1060b431</td></tr>
 </table><p>
 </body>
 </html>
